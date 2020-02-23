@@ -7,10 +7,11 @@
              x:Class="JubilantWaffle.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms Max!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Entry x:Name="puzzleSize"/>
+        <Button x:Name="puzzleSizeButton"/>
+        <Grid>
+            
+        </Grid>
     </StackLayout>
 
 </ContentPage>

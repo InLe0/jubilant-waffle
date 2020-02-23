@@ -16,6 +16,7 @@ namespace JubilantWaffle
         public MainPage()
         {
             InitializeComponent();
+            
         }
     }
 }
