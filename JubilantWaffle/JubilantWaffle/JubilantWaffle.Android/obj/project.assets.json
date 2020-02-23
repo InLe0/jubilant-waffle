@@ -799,6 +799,20 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
+      },
+      "JubilantWaffle/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.3.1",
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "compile": {
+          "bin/placeholder/JubilantWaffle.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JubilantWaffle.dll": {}
+        }
       }
     }
   },
@@ -1903,33 +1917,39 @@
         "xamarin.forms.4.3.0.908675.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "JubilantWaffle/1.0.0": {
+      "type": "project",
+      "path": "../JubilantWaffle/JubilantWaffle.csproj",
+      "msbuildProject": "../JubilantWaffle/JubilantWaffle.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
+      "JubilantWaffle >= 1.0.0",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.908675"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\InLeo\\.nuget\\packages\\": {},
+    "C:\\Users\\45502\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\InLeo\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.Android\\JubilantWaffle.Android.csproj",
+      "projectUniqueName": "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.Android\\JubilantWaffle.Android.csproj",
       "projectName": "JubilantWaffle.Android",
-      "projectPath": "C:\\Users\\InLeo\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.Android\\JubilantWaffle.Android.csproj",
-      "packagesPath": "C:\\Users\\InLeo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\InLeo\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.Android\\obj\\",
+      "projectPath": "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.Android\\JubilantWaffle.Android.csproj",
+      "packagesPath": "C:\\Users\\45502\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\InLeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\45502\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1942,7 +1962,11 @@
       },
       "frameworks": {
         "monoandroid90": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj": {
+              "projectPath": "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj"
+            }
+          }
         }
       }
     },
