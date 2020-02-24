@@ -2,6 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +24,6 @@ namespace JubilantWaffle
             puzzleSizeButton.Clicked += SetSizeButton;
 
         }
-        
 
         void SetSizeButton(object sender, EventArgs e)
         {
@@ -32,7 +34,10 @@ namespace JubilantWaffle
             int rotation270 = 270;
             Random r = new Random();
             ArrayList buttonList = new ArrayList();
-          
+
+            System.Drawing.Image image = System.Drawing.Image.FromFile("grommash.png");
+            ImageFormat format = ImageFormat.Png;
+
             for (int i = 0; i < puzzleSizeInt; i++)
             {
 
@@ -40,14 +45,15 @@ namespace JubilantWaffle
                 {
                     ImageButton button = new ImageButton();
                     buttonList.Add(button);
-                   
+
                     Grid.SetColumn(button, j);
                     Grid.SetRow(button, i);
-                    button.Source = "clipatsmall.png";
+                    button.Source = "grommash.png";
+                    //button.Source = ToStream(image, format);
                     button.Aspect = Aspect.AspectFit;
                     myGrid.Children.Add(button);
-                    int rInt = r.Next(0, 2);
-                    switch(rInt)
+                    int rInt = r.Next(0, 4);
+                    switch (rInt)
                     {
                         case 0:
                             button.RotateTo(rotation90);
@@ -58,13 +64,12 @@ namespace JubilantWaffle
                         case 2:
                             button.RotateTo(rotation270);
                             break;
-                        default:   
+                        default:
                             break;
                     }
                 }
-               
+
             }
         }
-
     }
 }

@@ -84,7 +84,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\grommash.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JubilantWaffle\JubilantWaffle.csproj">
       <Project>{9BA4A43E-CC8B-4E57-9880-7F71597FC636}</Project>
