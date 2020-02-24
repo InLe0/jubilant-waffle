@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -19,7 +20,6 @@ namespace JubilantWaffle
             InitializeComponent();
             puzzleSizeButton.Clicked += SetSizeButton;
 
-
         }
         
 
@@ -31,34 +31,40 @@ namespace JubilantWaffle
             int rotation180 = 180;
             int rotation270 = 270;
             Random r = new Random();
-            
+            ArrayList buttonList = new ArrayList();
           
             for (int i = 0; i < puzzleSizeInt; i++)
             {
 
                 for (int j = 0; j < puzzleSizeInt; j++)
                 {
-                    Button button = new Button();
+                    ImageButton button = new ImageButton();
+                    buttonList.Add(button);
+                   
                     Grid.SetColumn(button, j);
                     Grid.SetRow(button, i);
+                    button.Source = "clipatsmall.png";
+                    button.Aspect = Aspect.AspectFit;
                     myGrid.Children.Add(button);
                     int rInt = r.Next(0, 2);
                     switch(rInt)
                     {
+                        case 0:
+                            button.RotateTo(rotation90);
+                            break;
                         case 1:
-                            //rotation code
+                            button.RotateTo(rotation180);
                             break;
                         case 2:
-                            //rotation code
+                            button.RotateTo(rotation270);
                             break;
-                        case 3:
-                            //rotation code
+                        default:   
                             break;
                     }
                 }
                
             }
-
         }
+
     }
 }

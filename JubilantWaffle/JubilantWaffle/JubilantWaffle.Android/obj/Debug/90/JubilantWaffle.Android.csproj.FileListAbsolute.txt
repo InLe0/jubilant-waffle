@@ -942,3 +942,4 @@ C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\Jubila
 C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\JubilantWaffle.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\JubilantWaffle.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\JubilantWaffle.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\45502\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\JubilantWaffle.Android\obj\Debug\90\res\drawable\clipatsmall.png
