@@ -7,10 +7,10 @@
              x:Class="JubilantWaffle.MainPage">
 
     <StackLayout>
-        <Entry x:Name="puzzleSize"/>
-        <Button x:Name="puzzleSizeButton"/>
-        <Grid>
-            
+        <Entry x:Name="puzzleSizeEnt" Text="enter value"/>
+        <Button x:Name="puzzleSizeButton" Text="applyValue"/>
+        <Grid x:Name="myGrid">
+           
         </Grid>
     </StackLayout>
 
