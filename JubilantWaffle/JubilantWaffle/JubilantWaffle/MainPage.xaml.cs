@@ -21,6 +21,7 @@ namespace JubilantWaffle
 
 
         }
+        // created new brancj
 
         void SetSizeButton(object sender, EventArgs e)
         {
@@ -31,7 +32,7 @@ namespace JubilantWaffle
             int rotation270 = 270;
             Random r = new Random();
             
-
+          
             for (int i = 0; i < puzzleSizeInt; i++)
             {
 
