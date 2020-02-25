@@ -32,11 +32,8 @@ namespace JubilantWaffle
             int rotation90 = 90;
             int rotation180 = 180;
             int rotation270 = 270;
-            Random r = new Random();
-            ArrayList buttonList = new ArrayList();
 
-            System.Drawing.Image image = System.Drawing.Image.FromFile("grommash.png");
-            ImageFormat format = ImageFormat.Png;
+            ArrayList buttonList = new ArrayList();
 
             for (int i = 0; i < puzzleSizeInt; i++)
             {
@@ -49,24 +46,9 @@ namespace JubilantWaffle
                     Grid.SetColumn(button, j);
                     Grid.SetRow(button, i);
                     button.Source = "grommash.png";
-                    //button.Source = ToStream(image, format);
+                    
                     button.Aspect = Aspect.AspectFit;
                     myGrid.Children.Add(button);
-                    int rInt = r.Next(0, 4);
-                    switch (rInt)
-                    {
-                        case 0:
-                            button.RotateTo(rotation90);
-                            break;
-                        case 1:
-                            button.RotateTo(rotation180);
-                            break;
-                        case 2:
-                            button.RotateTo(rotation270);
-                            break;
-                        default:
-                            break;
-                    }
                 }
 
             }
