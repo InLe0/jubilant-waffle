@@ -6,13 +6,11 @@
              mc:Ignorable="d"
              x:Class="JubilantWaffle.MainPage">
 
-    <StackLayout>
+    <StackLayout x:Name="MyStack">
         <Entry x:Name="puzzleSizeEnt" Text="enter value"/>
         <Button x:Name="puzzleSizeButton" Text="applyValue"/>
-        <Label x:Name="ScreenValue"/>
-        <Label x:Name="MathedValue"/>
         <Grid x:Name="myGrid">
-
+            
         </Grid>
     </StackLayout>
 
