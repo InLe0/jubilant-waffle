@@ -42,8 +42,8 @@ namespace JubilantWaffle
 
                     ImageButton button = new ImageButton();
                     int mathedValue = App.screenWidth * 3 / (puzzleSizeInt * 10)*puzzleSizeInt;
-                    MathedValue.Text = mathedValue.ToString();
-                    ScreenValue.Text = App.screenWidth.ToString();
+                    //MathedValue.Text = mathedValue.ToString();
+                    //ScreenValue.Text = App.screenWidth.ToString();
                     Console.WriteLine(App.screenWidth);
                     Console.WriteLine(App.screenWidth * 3 / (puzzleSizeInt * 10));
                     myGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength((App.screenWidth * 3) / (puzzleSizeInt * 10)) });
@@ -53,30 +53,10 @@ namespace JubilantWaffle
                     button.Source = ImageSource.FromFile("grommash.png");
                     button.Aspect = Aspect.AspectFill;
                     myGrid.Children.Add(button);
-                    int rInt = r.Next(0, 2);
-                    switch(rInt)
-                    {
-                        case 0:
-                            button.RotateTo(rotation90);
-                            break;
-                        case 1:
-                            button.RotateTo(rotation180);
-                            break;
-                        case 2:
-                            button.RotateTo(rotation270);
-                            break;
-                        default:   
-                            break;
-                    }
+                    
                 }
                
             }
         }
-        void SwapImage(object sender, EventArgs e)
-        {
-            Button button = (Button)sender;
-
-        }
-
     }
 }
