@@ -208,2632 +208,58 @@ namespace JubilantWaffle.Droid
 			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem = global::JubilantWaffle.Droid.Resource.Styleable.GradientColorItem;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_color = global::JubilantWaffle.Droid.Resource.Styleable.GradientColorItem_android_color;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_offset = global::JubilantWaffle.Droid.Resource.Styleable.GradientColorItem_android_offset;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::JubilantWaffle.Droid.Resource.Animation.abc_fade_in;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::JubilantWaffle.Droid.Resource.Animation.abc_fade_out;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::JubilantWaffle.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_popup_enter = global::JubilantWaffle.Droid.Resource.Animation.abc_popup_enter;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_popup_exit = global::JubilantWaffle.Droid.Resource.Animation.abc_popup_exit;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::JubilantWaffle.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_slide_in_bottom = global::JubilantWaffle.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_slide_in_top = global::JubilantWaffle.Droid.Resource.Animation.abc_slide_in_top;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_slide_out_bottom = global::JubilantWaffle.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_slide_out_top = global::JubilantWaffle.Droid.Resource.Animation.abc_slide_out_top;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_tooltip_enter = global::JubilantWaffle.Droid.Resource.Animation.abc_tooltip_enter;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_tooltip_exit = global::JubilantWaffle.Droid.Resource.Animation.abc_tooltip_exit;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_in = global::JubilantWaffle.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::JubilantWaffle.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_in = global::JubilantWaffle.Droid.Resource.Animation.design_snackbar_in;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_out = global::JubilantWaffle.Droid.Resource.Animation.design_snackbar_out;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromLeft = global::JubilantWaffle.Droid.Resource.Animation.EnterFromLeft;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::JubilantWaffle.Droid.Resource.Animation.EnterFromRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::JubilantWaffle.Droid.Resource.Animation.ExitToLeft;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::JubilantWaffle.Droid.Resource.Animation.ExitToRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_appbar_state_list_animator = global::JubilantWaffle.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_fab_hide_motion_spec = global::JubilantWaffle.Droid.Resource.Animator.design_fab_hide_motion_spec;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_fab_show_motion_spec = global::JubilantWaffle.Droid.Resource.Animator.design_fab_show_motion_spec;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_btn_state_list_anim = global::JubilantWaffle.Droid.Resource.Animator.mtrl_btn_state_list_anim;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::JubilantWaffle.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_chip_state_list_anim = global::JubilantWaffle.Droid.Resource.Animator.mtrl_chip_state_list_anim;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_fab_hide_motion_spec = global::JubilantWaffle.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_fab_show_motion_spec = global::JubilantWaffle.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::JubilantWaffle.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::JubilantWaffle.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarDivider = global::JubilantWaffle.Droid.Resource.Attribute.actionBarDivider;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarItemBackground = global::JubilantWaffle.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarPopupTheme = global::JubilantWaffle.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::JubilantWaffle.Droid.Resource.Attribute.actionBarSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSplitStyle = global::JubilantWaffle.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarStyle = global::JubilantWaffle.Droid.Resource.Attribute.actionBarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarTabBarStyle = global::JubilantWaffle.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarTabStyle = global::JubilantWaffle.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarTabTextStyle = global::JubilantWaffle.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarTheme = global::JubilantWaffle.Droid.Resource.Attribute.actionBarTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarWidgetTheme = global::JubilantWaffle.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.actionButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionDropDownStyle = global::JubilantWaffle.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionLayout = global::JubilantWaffle.Droid.Resource.Attribute.actionLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionMenuTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionMenuTextColor = global::JubilantWaffle.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeBackground = global::JubilantWaffle.Droid.Resource.Attribute.actionModeBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeCloseButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeCloseDrawable = global::JubilantWaffle.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeCopyDrawable = global::JubilantWaffle.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeCutDrawable = global::JubilantWaffle.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeFindDrawable = global::JubilantWaffle.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModePasteDrawable = global::JubilantWaffle.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModePopupWindowStyle = global::JubilantWaffle.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeSelectAllDrawable = global::JubilantWaffle.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeShareDrawable = global::JubilantWaffle.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeSplitBackground = global::JubilantWaffle.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeStyle = global::JubilantWaffle.Droid.Resource.Attribute.actionModeStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeWebSearchDrawable = global::JubilantWaffle.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionOverflowButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionOverflowMenuStyle = global::JubilantWaffle.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionProviderClass = global::JubilantWaffle.Droid.Resource.Attribute.actionProviderClass;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionViewClass = global::JubilantWaffle.Droid.Resource.Attribute.actionViewClass;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.activityChooserViewStyle = global::JubilantWaffle.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::JubilantWaffle.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alertDialogCenterButtons = global::JubilantWaffle.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alertDialogStyle = global::JubilantWaffle.Droid.Resource.Attribute.alertDialogStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alertDialogTheme = global::JubilantWaffle.Droid.Resource.Attribute.alertDialogTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.allowStacking = global::JubilantWaffle.Droid.Resource.Attribute.allowStacking;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alpha = global::JubilantWaffle.Droid.Resource.Attribute.alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alphabeticModifiers = global::JubilantWaffle.Droid.Resource.Attribute.alphabeticModifiers;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.arrowHeadLength = global::JubilantWaffle.Droid.Resource.Attribute.arrowHeadLength;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.arrowShaftLength = global::JubilantWaffle.Droid.Resource.Attribute.arrowShaftLength;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoCompleteTextViewStyle = global::JubilantWaffle.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizeMaxTextSize = global::JubilantWaffle.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizeMinTextSize = global::JubilantWaffle.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizePresetSizes = global::JubilantWaffle.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizeStepGranularity = global::JubilantWaffle.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizeTextType = global::JubilantWaffle.Droid.Resource.Attribute.autoSizeTextType;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.background = global::JubilantWaffle.Droid.Resource.Attribute.background;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundSplit = global::JubilantWaffle.Droid.Resource.Attribute.backgroundSplit;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundStacked = global::JubilantWaffle.Droid.Resource.Attribute.backgroundStacked;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundTint = global::JubilantWaffle.Droid.Resource.Attribute.backgroundTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundTintMode = global::JubilantWaffle.Droid.Resource.Attribute.backgroundTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.barLength = global::JubilantWaffle.Droid.Resource.Attribute.barLength;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_autoHide = global::JubilantWaffle.Droid.Resource.Attribute.behavior_autoHide;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_fitToContents = global::JubilantWaffle.Droid.Resource.Attribute.behavior_fitToContents;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_hideable = global::JubilantWaffle.Droid.Resource.Attribute.behavior_hideable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_overlapTop = global::JubilantWaffle.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_peekHeight = global::JubilantWaffle.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_skipCollapsed = global::JubilantWaffle.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.borderWidth = global::JubilantWaffle.Droid.Resource.Attribute.borderWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.borderlessButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.bottomAppBarStyle = global::JubilantWaffle.Droid.Resource.Attribute.bottomAppBarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.bottomNavigationStyle = global::JubilantWaffle.Droid.Resource.Attribute.bottomNavigationStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.bottomSheetDialogTheme = global::JubilantWaffle.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.bottomSheetStyle = global::JubilantWaffle.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxBackgroundColor = global::JubilantWaffle.Droid.Resource.Attribute.boxBackgroundColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxBackgroundMode = global::JubilantWaffle.Droid.Resource.Attribute.boxBackgroundMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxCollapsedPaddingTop = global::JubilantWaffle.Droid.Resource.Attribute.boxCollapsedPaddingTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxCornerRadiusBottomEnd = global::JubilantWaffle.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxCornerRadiusBottomStart = global::JubilantWaffle.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxCornerRadiusTopEnd = global::JubilantWaffle.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxCornerRadiusTopStart = global::JubilantWaffle.Droid.Resource.Attribute.boxCornerRadiusTopStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeColor = global::JubilantWaffle.Droid.Resource.Attribute.boxStrokeColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeWidth = global::JubilantWaffle.Droid.Resource.Attribute.boxStrokeWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarStyle = global::JubilantWaffle.Droid.Resource.Attribute.buttonBarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonGravity = global::JubilantWaffle.Droid.Resource.Attribute.buttonGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonIconDimen = global::JubilantWaffle.Droid.Resource.Attribute.buttonIconDimen;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonPanelSideLayout = global::JubilantWaffle.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonStyle = global::JubilantWaffle.Droid.Resource.Attribute.buttonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonStyleSmall = global::JubilantWaffle.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonTint = global::JubilantWaffle.Droid.Resource.Attribute.buttonTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonTintMode = global::JubilantWaffle.Droid.Resource.Attribute.buttonTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardBackgroundColor = global::JubilantWaffle.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardCornerRadius = global::JubilantWaffle.Droid.Resource.Attribute.cardCornerRadius;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardElevation = global::JubilantWaffle.Droid.Resource.Attribute.cardElevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardMaxElevation = global::JubilantWaffle.Droid.Resource.Attribute.cardMaxElevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardPreventCornerOverlap = global::JubilantWaffle.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardUseCompatPadding = global::JubilantWaffle.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardViewStyle = global::JubilantWaffle.Droid.Resource.Attribute.cardViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkboxStyle = global::JubilantWaffle.Droid.Resource.Attribute.checkboxStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedChip = global::JubilantWaffle.Droid.Resource.Attribute.checkedChip;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIcon = global::JubilantWaffle.Droid.Resource.Attribute.checkedIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconEnabled = global::JubilantWaffle.Droid.Resource.Attribute.checkedIconEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconVisible = global::JubilantWaffle.Droid.Resource.Attribute.checkedIconVisible;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedTextViewStyle = global::JubilantWaffle.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipBackgroundColor = global::JubilantWaffle.Droid.Resource.Attribute.chipBackgroundColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipCornerRadius = global::JubilantWaffle.Droid.Resource.Attribute.chipCornerRadius;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipEndPadding = global::JubilantWaffle.Droid.Resource.Attribute.chipEndPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipGroupStyle = global::JubilantWaffle.Droid.Resource.Attribute.chipGroupStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipIcon = global::JubilantWaffle.Droid.Resource.Attribute.chipIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipIconEnabled = global::JubilantWaffle.Droid.Resource.Attribute.chipIconEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipIconSize = global::JubilantWaffle.Droid.Resource.Attribute.chipIconSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipIconTint = global::JubilantWaffle.Droid.Resource.Attribute.chipIconTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipIconVisible = global::JubilantWaffle.Droid.Resource.Attribute.chipIconVisible;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipMinHeight = global::JubilantWaffle.Droid.Resource.Attribute.chipMinHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipSpacing = global::JubilantWaffle.Droid.Resource.Attribute.chipSpacing;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipSpacingHorizontal = global::JubilantWaffle.Droid.Resource.Attribute.chipSpacingHorizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipSpacingVertical = global::JubilantWaffle.Droid.Resource.Attribute.chipSpacingVertical;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipStandaloneStyle = global::JubilantWaffle.Droid.Resource.Attribute.chipStandaloneStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipStartPadding = global::JubilantWaffle.Droid.Resource.Attribute.chipStartPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipStrokeColor = global::JubilantWaffle.Droid.Resource.Attribute.chipStrokeColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipStrokeWidth = global::JubilantWaffle.Droid.Resource.Attribute.chipStrokeWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipStyle = global::JubilantWaffle.Droid.Resource.Attribute.chipStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIcon = global::JubilantWaffle.Droid.Resource.Attribute.closeIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIconEnabled = global::JubilantWaffle.Droid.Resource.Attribute.closeIconEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIconEndPadding = global::JubilantWaffle.Droid.Resource.Attribute.closeIconEndPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIconSize = global::JubilantWaffle.Droid.Resource.Attribute.closeIconSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIconStartPadding = global::JubilantWaffle.Droid.Resource.Attribute.closeIconStartPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIconTint = global::JubilantWaffle.Droid.Resource.Attribute.closeIconTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIconVisible = global::JubilantWaffle.Droid.Resource.Attribute.closeIconVisible;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeItemLayout = global::JubilantWaffle.Droid.Resource.Attribute.closeItemLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapseContentDescription = global::JubilantWaffle.Droid.Resource.Attribute.collapseContentDescription;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapseIcon = global::JubilantWaffle.Droid.Resource.Attribute.collapseIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapsedTitleGravity = global::JubilantWaffle.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapsedTitleTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.color = global::JubilantWaffle.Droid.Resource.Attribute.color;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorAccent = global::JubilantWaffle.Droid.Resource.Attribute.colorAccent;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorBackgroundFloating = global::JubilantWaffle.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorButtonNormal = global::JubilantWaffle.Droid.Resource.Attribute.colorButtonNormal;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorControlActivated = global::JubilantWaffle.Droid.Resource.Attribute.colorControlActivated;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorControlHighlight = global::JubilantWaffle.Droid.Resource.Attribute.colorControlHighlight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorControlNormal = global::JubilantWaffle.Droid.Resource.Attribute.colorControlNormal;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorError = global::JubilantWaffle.Droid.Resource.Attribute.colorError;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorPrimary = global::JubilantWaffle.Droid.Resource.Attribute.colorPrimary;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorPrimaryDark = global::JubilantWaffle.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSecondary = global::JubilantWaffle.Droid.Resource.Attribute.colorSecondary;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSwitchThumbNormal = global::JubilantWaffle.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.commitIcon = global::JubilantWaffle.Droid.Resource.Attribute.commitIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentDescription = global::JubilantWaffle.Droid.Resource.Attribute.contentDescription;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetEnd = global::JubilantWaffle.Droid.Resource.Attribute.contentInsetEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetEndWithActions = global::JubilantWaffle.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetLeft = global::JubilantWaffle.Droid.Resource.Attribute.contentInsetLeft;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetRight = global::JubilantWaffle.Droid.Resource.Attribute.contentInsetRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetStart = global::JubilantWaffle.Droid.Resource.Attribute.contentInsetStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetStartWithNavigation = global::JubilantWaffle.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPadding = global::JubilantWaffle.Droid.Resource.Attribute.contentPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPaddingBottom = global::JubilantWaffle.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPaddingLeft = global::JubilantWaffle.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPaddingRight = global::JubilantWaffle.Droid.Resource.Attribute.contentPaddingRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPaddingTop = global::JubilantWaffle.Droid.Resource.Attribute.contentPaddingTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentScrim = global::JubilantWaffle.Droid.Resource.Attribute.contentScrim;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.controlBackground = global::JubilantWaffle.Droid.Resource.Attribute.controlBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.coordinatorLayoutStyle = global::JubilantWaffle.Droid.Resource.Attribute.coordinatorLayoutStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerRadius = global::JubilantWaffle.Droid.Resource.Attribute.cornerRadius;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterEnabled = global::JubilantWaffle.Droid.Resource.Attribute.counterEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterMaxLength = global::JubilantWaffle.Droid.Resource.Attribute.counterMaxLength;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterOverflowTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.counterTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.customNavigationLayout = global::JubilantWaffle.Droid.Resource.Attribute.customNavigationLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.defaultQueryHint = global::JubilantWaffle.Droid.Resource.Attribute.defaultQueryHint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dialogCornerRadius = global::JubilantWaffle.Droid.Resource.Attribute.dialogCornerRadius;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dialogPreferredPadding = global::JubilantWaffle.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dialogTheme = global::JubilantWaffle.Droid.Resource.Attribute.dialogTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.displayOptions = global::JubilantWaffle.Droid.Resource.Attribute.displayOptions;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.divider = global::JubilantWaffle.Droid.Resource.Attribute.divider;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dividerHorizontal = global::JubilantWaffle.Droid.Resource.Attribute.dividerHorizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dividerPadding = global::JubilantWaffle.Droid.Resource.Attribute.dividerPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dividerVertical = global::JubilantWaffle.Droid.Resource.Attribute.dividerVertical;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableSize = global::JubilantWaffle.Droid.Resource.Attribute.drawableSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawerArrowStyle = global::JubilantWaffle.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dropDownListViewStyle = global::JubilantWaffle.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::JubilantWaffle.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextBackground = global::JubilantWaffle.Droid.Resource.Attribute.editTextBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextColor = global::JubilantWaffle.Droid.Resource.Attribute.editTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextStyle = global::JubilantWaffle.Droid.Resource.Attribute.editTextStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevation = global::JubilantWaffle.Droid.Resource.Attribute.elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.enforceMaterialTheme = global::JubilantWaffle.Droid.Resource.Attribute.enforceMaterialTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.enforceTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.enforceTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorEnabled = global::JubilantWaffle.Droid.Resource.Attribute.errorEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.errorTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::JubilantWaffle.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expanded = global::JubilantWaffle.Droid.Resource.Attribute.expanded;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleGravity = global::JubilantWaffle.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMargin = global::JubilantWaffle.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginBottom = global::JubilantWaffle.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginEnd = global::JubilantWaffle.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginStart = global::JubilantWaffle.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginTop = global::JubilantWaffle.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabAlignmentMode = global::JubilantWaffle.Droid.Resource.Attribute.fabAlignmentMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabCradleMargin = global::JubilantWaffle.Droid.Resource.Attribute.fabCradleMargin;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabCradleRoundedCornerRadius = global::JubilantWaffle.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabCradleVerticalOffset = global::JubilantWaffle.Droid.Resource.Attribute.fabCradleVerticalOffset;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabCustomSize = global::JubilantWaffle.Droid.Resource.Attribute.fabCustomSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabSize = global::JubilantWaffle.Droid.Resource.Attribute.fabSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fastScrollEnabled = global::JubilantWaffle.Droid.Resource.Attribute.fastScrollEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::JubilantWaffle.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::JubilantWaffle.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::JubilantWaffle.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::JubilantWaffle.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.firstBaselineToTopHeight = global::JubilantWaffle.Droid.Resource.Attribute.firstBaselineToTopHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.floatingActionButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.floatingActionButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.font = global::JubilantWaffle.Droid.Resource.Attribute.font;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontFamily = global::JubilantWaffle.Droid.Resource.Attribute.fontFamily;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontProviderAuthority = global::JubilantWaffle.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontProviderCerts = global::JubilantWaffle.Droid.Resource.Attribute.fontProviderCerts;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontProviderFetchStrategy = global::JubilantWaffle.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontProviderFetchTimeout = global::JubilantWaffle.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontProviderPackage = global::JubilantWaffle.Droid.Resource.Attribute.fontProviderPackage;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontProviderQuery = global::JubilantWaffle.Droid.Resource.Attribute.fontProviderQuery;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontStyle = global::JubilantWaffle.Droid.Resource.Attribute.fontStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontVariationSettings = global::JubilantWaffle.Droid.Resource.Attribute.fontVariationSettings;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontWeight = global::JubilantWaffle.Droid.Resource.Attribute.fontWeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.foregroundInsidePadding = global::JubilantWaffle.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.gapBetweenBars = global::JubilantWaffle.Droid.Resource.Attribute.gapBetweenBars;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.goIcon = global::JubilantWaffle.Droid.Resource.Attribute.goIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.headerLayout = global::JubilantWaffle.Droid.Resource.Attribute.headerLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.height = global::JubilantWaffle.Droid.Resource.Attribute.height;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperText = global::JubilantWaffle.Droid.Resource.Attribute.helperText;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperTextEnabled = global::JubilantWaffle.Droid.Resource.Attribute.helperTextEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperTextTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.helperTextTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hideMotionSpec = global::JubilantWaffle.Droid.Resource.Attribute.hideMotionSpec;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hideOnContentScroll = global::JubilantWaffle.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hideOnScroll = global::JubilantWaffle.Droid.Resource.Attribute.hideOnScroll;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintAnimationEnabled = global::JubilantWaffle.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintEnabled = global::JubilantWaffle.Droid.Resource.Attribute.hintEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.hintTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.homeAsUpIndicator = global::JubilantWaffle.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.homeLayout = global::JubilantWaffle.Droid.Resource.Attribute.homeLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hoveredFocusedTranslationZ = global::JubilantWaffle.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.icon = global::JubilantWaffle.Droid.Resource.Attribute.icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconEndPadding = global::JubilantWaffle.Droid.Resource.Attribute.iconEndPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconGravity = global::JubilantWaffle.Droid.Resource.Attribute.iconGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconPadding = global::JubilantWaffle.Droid.Resource.Attribute.iconPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconSize = global::JubilantWaffle.Droid.Resource.Attribute.iconSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconStartPadding = global::JubilantWaffle.Droid.Resource.Attribute.iconStartPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconTint = global::JubilantWaffle.Droid.Resource.Attribute.iconTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconTintMode = global::JubilantWaffle.Droid.Resource.Attribute.iconTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconifiedByDefault = global::JubilantWaffle.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.imageButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.imageButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.indeterminateProgressStyle = global::JubilantWaffle.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.initialActivityCount = global::JubilantWaffle.Droid.Resource.Attribute.initialActivityCount;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.insetForeground = global::JubilantWaffle.Droid.Resource.Attribute.insetForeground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.isLightTheme = global::JubilantWaffle.Droid.Resource.Attribute.isLightTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemBackground = global::JubilantWaffle.Droid.Resource.Attribute.itemBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemHorizontalPadding = global::JubilantWaffle.Droid.Resource.Attribute.itemHorizontalPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemHorizontalTranslationEnabled = global::JubilantWaffle.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemIconPadding = global::JubilantWaffle.Droid.Resource.Attribute.itemIconPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemIconSize = global::JubilantWaffle.Droid.Resource.Attribute.itemIconSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemIconTint = global::JubilantWaffle.Droid.Resource.Attribute.itemIconTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemPadding = global::JubilantWaffle.Droid.Resource.Attribute.itemPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemSpacing = global::JubilantWaffle.Droid.Resource.Attribute.itemSpacing;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.itemTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextAppearanceActive = global::JubilantWaffle.Droid.Resource.Attribute.itemTextAppearanceActive;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextAppearanceInactive = global::JubilantWaffle.Droid.Resource.Attribute.itemTextAppearanceInactive;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextColor = global::JubilantWaffle.Droid.Resource.Attribute.itemTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.keylines = global::JubilantWaffle.Droid.Resource.Attribute.keylines;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.labelVisibilityMode = global::JubilantWaffle.Droid.Resource.Attribute.labelVisibilityMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lastBaselineToBottomHeight = global::JubilantWaffle.Droid.Resource.Attribute.lastBaselineToBottomHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout = global::JubilantWaffle.Droid.Resource.Attribute.layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layoutManager = global::JubilantWaffle.Droid.Resource.Attribute.layoutManager;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_anchor = global::JubilantWaffle.Droid.Resource.Attribute.layout_anchor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_anchorGravity = global::JubilantWaffle.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_behavior = global::JubilantWaffle.Droid.Resource.Attribute.layout_behavior;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_collapseMode = global::JubilantWaffle.Droid.Resource.Attribute.layout_collapseMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::JubilantWaffle.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_dodgeInsetEdges = global::JubilantWaffle.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_insetEdge = global::JubilantWaffle.Droid.Resource.Attribute.layout_insetEdge;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_keyline = global::JubilantWaffle.Droid.Resource.Attribute.layout_keyline;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_scrollFlags = global::JubilantWaffle.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_scrollInterpolator = global::JubilantWaffle.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.liftOnScroll = global::JubilantWaffle.Droid.Resource.Attribute.liftOnScroll;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lineHeight = global::JubilantWaffle.Droid.Resource.Attribute.lineHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lineSpacing = global::JubilantWaffle.Droid.Resource.Attribute.lineSpacing;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::JubilantWaffle.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listDividerAlertDialog = global::JubilantWaffle.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listItemLayout = global::JubilantWaffle.Droid.Resource.Attribute.listItemLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listLayout = global::JubilantWaffle.Droid.Resource.Attribute.listLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listMenuViewStyle = global::JubilantWaffle.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPopupWindowStyle = global::JubilantWaffle.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeight = global::JubilantWaffle.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeightLarge = global::JubilantWaffle.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeightSmall = global::JubilantWaffle.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::JubilantWaffle.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingRight = global::JubilantWaffle.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logo = global::JubilantWaffle.Droid.Resource.Attribute.logo;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logoDescription = global::JubilantWaffle.Droid.Resource.Attribute.logoDescription;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.materialButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCardViewStyle = global::JubilantWaffle.Droid.Resource.Attribute.materialCardViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxActionInlineWidth = global::JubilantWaffle.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxButtonHeight = global::JubilantWaffle.Droid.Resource.Attribute.maxButtonHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxImageSize = global::JubilantWaffle.Droid.Resource.Attribute.maxImageSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.measureWithLargestChild = global::JubilantWaffle.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.menu = global::JubilantWaffle.Droid.Resource.Attribute.menu;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.multiChoiceItemLayout = global::JubilantWaffle.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationContentDescription = global::JubilantWaffle.Droid.Resource.Attribute.navigationContentDescription;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationIcon = global::JubilantWaffle.Droid.Resource.Attribute.navigationIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationMode = global::JubilantWaffle.Droid.Resource.Attribute.navigationMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationViewStyle = global::JubilantWaffle.Droid.Resource.Attribute.navigationViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.numericModifiers = global::JubilantWaffle.Droid.Resource.Attribute.numericModifiers;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.overlapAnchor = global::JubilantWaffle.Droid.Resource.Attribute.overlapAnchor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingBottomNoButtons = global::JubilantWaffle.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingEnd = global::JubilantWaffle.Droid.Resource.Attribute.paddingEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingStart = global::JubilantWaffle.Droid.Resource.Attribute.paddingStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingTopNoTitle = global::JubilantWaffle.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.panelBackground = global::JubilantWaffle.Droid.Resource.Attribute.panelBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.panelMenuListTheme = global::JubilantWaffle.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.panelMenuListWidth = global::JubilantWaffle.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleContentDescription = global::JubilantWaffle.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleDrawable = global::JubilantWaffle.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleEnabled = global::JubilantWaffle.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleTint = global::JubilantWaffle.Droid.Resource.Attribute.passwordToggleTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleTintMode = global::JubilantWaffle.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupMenuStyle = global::JubilantWaffle.Droid.Resource.Attribute.popupMenuStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupTheme = global::JubilantWaffle.Droid.Resource.Attribute.popupTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupWindowStyle = global::JubilantWaffle.Droid.Resource.Attribute.popupWindowStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.preserveIconSpacing = global::JubilantWaffle.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.pressedTranslationZ = global::JubilantWaffle.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.progressBarPadding = global::JubilantWaffle.Droid.Resource.Attribute.progressBarPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.progressBarStyle = global::JubilantWaffle.Droid.Resource.Attribute.progressBarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.queryBackground = global::JubilantWaffle.Droid.Resource.Attribute.queryBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.queryHint = global::JubilantWaffle.Droid.Resource.Attribute.queryHint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.radioButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.radioButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyle = global::JubilantWaffle.Droid.Resource.Attribute.ratingBarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyleIndicator = global::JubilantWaffle.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyleSmall = global::JubilantWaffle.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.reverseLayout = global::JubilantWaffle.Droid.Resource.Attribute.reverseLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.rippleColor = global::JubilantWaffle.Droid.Resource.Attribute.rippleColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimAnimationDuration = global::JubilantWaffle.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimBackground = global::JubilantWaffle.Droid.Resource.Attribute.scrimBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::JubilantWaffle.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchHintIcon = global::JubilantWaffle.Droid.Resource.Attribute.searchHintIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchIcon = global::JubilantWaffle.Droid.Resource.Attribute.searchIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchViewStyle = global::JubilantWaffle.Droid.Resource.Attribute.searchViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.seekBarStyle = global::JubilantWaffle.Droid.Resource.Attribute.seekBarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.selectableItemBackground = global::JubilantWaffle.Droid.Resource.Attribute.selectableItemBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::JubilantWaffle.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showAsAction = global::JubilantWaffle.Droid.Resource.Attribute.showAsAction;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showDividers = global::JubilantWaffle.Droid.Resource.Attribute.showDividers;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showMotionSpec = global::JubilantWaffle.Droid.Resource.Attribute.showMotionSpec;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showText = global::JubilantWaffle.Droid.Resource.Attribute.showText;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showTitle = global::JubilantWaffle.Droid.Resource.Attribute.showTitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleChoiceItemLayout = global::JubilantWaffle.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleLine = global::JubilantWaffle.Droid.Resource.Attribute.singleLine;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleSelection = global::JubilantWaffle.Droid.Resource.Attribute.singleSelection;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.snackbarButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.snackbarButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.snackbarStyle = global::JubilantWaffle.Droid.Resource.Attribute.snackbarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spanCount = global::JubilantWaffle.Droid.Resource.Attribute.spanCount;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinBars = global::JubilantWaffle.Droid.Resource.Attribute.spinBars;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinnerDropDownItemStyle = global::JubilantWaffle.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinnerStyle = global::JubilantWaffle.Droid.Resource.Attribute.spinnerStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.splitTrack = global::JubilantWaffle.Droid.Resource.Attribute.splitTrack;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.srcCompat = global::JubilantWaffle.Droid.Resource.Attribute.srcCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.stackFromEnd = global::JubilantWaffle.Droid.Resource.Attribute.stackFromEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_above_anchor = global::JubilantWaffle.Droid.Resource.Attribute.state_above_anchor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_collapsed = global::JubilantWaffle.Droid.Resource.Attribute.state_collapsed;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_collapsible = global::JubilantWaffle.Droid.Resource.Attribute.state_collapsible;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_liftable = global::JubilantWaffle.Droid.Resource.Attribute.state_liftable;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_lifted = global::JubilantWaffle.Droid.Resource.Attribute.state_lifted;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.statusBarBackground = global::JubilantWaffle.Droid.Resource.Attribute.statusBarBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.statusBarScrim = global::JubilantWaffle.Droid.Resource.Attribute.statusBarScrim;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.strokeColor = global::JubilantWaffle.Droid.Resource.Attribute.strokeColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.strokeWidth = global::JubilantWaffle.Droid.Resource.Attribute.strokeWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subMenuArrow = global::JubilantWaffle.Droid.Resource.Attribute.subMenuArrow;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.submitBackground = global::JubilantWaffle.Droid.Resource.Attribute.submitBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitle = global::JubilantWaffle.Droid.Resource.Attribute.subtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextColor = global::JubilantWaffle.Droid.Resource.Attribute.subtitleTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextStyle = global::JubilantWaffle.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suggestionRowLayout = global::JubilantWaffle.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchMinWidth = global::JubilantWaffle.Droid.Resource.Attribute.switchMinWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchPadding = global::JubilantWaffle.Droid.Resource.Attribute.switchPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchStyle = global::JubilantWaffle.Droid.Resource.Attribute.switchStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.switchTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabBackground = global::JubilantWaffle.Droid.Resource.Attribute.tabBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabContentStart = global::JubilantWaffle.Droid.Resource.Attribute.tabContentStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabGravity = global::JubilantWaffle.Droid.Resource.Attribute.tabGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabIconTint = global::JubilantWaffle.Droid.Resource.Attribute.tabIconTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabIconTintMode = global::JubilantWaffle.Droid.Resource.Attribute.tabIconTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabIndicator = global::JubilantWaffle.Droid.Resource.Attribute.tabIndicator;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabIndicatorAnimationDuration = global::JubilantWaffle.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabIndicatorColor = global::JubilantWaffle.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabIndicatorFullWidth = global::JubilantWaffle.Droid.Resource.Attribute.tabIndicatorFullWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabIndicatorGravity = global::JubilantWaffle.Droid.Resource.Attribute.tabIndicatorGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabIndicatorHeight = global::JubilantWaffle.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabInlineLabel = global::JubilantWaffle.Droid.Resource.Attribute.tabInlineLabel;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabMaxWidth = global::JubilantWaffle.Droid.Resource.Attribute.tabMaxWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabMinWidth = global::JubilantWaffle.Droid.Resource.Attribute.tabMinWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabMode = global::JubilantWaffle.Droid.Resource.Attribute.tabMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabPadding = global::JubilantWaffle.Droid.Resource.Attribute.tabPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabPaddingBottom = global::JubilantWaffle.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabPaddingEnd = global::JubilantWaffle.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabPaddingStart = global::JubilantWaffle.Droid.Resource.Attribute.tabPaddingStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabPaddingTop = global::JubilantWaffle.Droid.Resource.Attribute.tabPaddingTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabRippleColor = global::JubilantWaffle.Droid.Resource.Attribute.tabRippleColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabSelectedTextColor = global::JubilantWaffle.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabStyle = global::JubilantWaffle.Droid.Resource.Attribute.tabStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.tabTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabTextColor = global::JubilantWaffle.Droid.Resource.Attribute.tabTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabUnboundedRipple = global::JubilantWaffle.Droid.Resource.Attribute.tabUnboundedRipple;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAllCaps = global::JubilantWaffle.Droid.Resource.Attribute.textAllCaps;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceBody1 = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceBody1;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceBody2 = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceBody2;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceButton = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceCaption = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceCaption;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceHeadline1 = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceHeadline1;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceHeadline2 = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceHeadline2;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceHeadline3 = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceHeadline3;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceHeadline4 = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceHeadline4;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceHeadline5 = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceHeadline5;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceHeadline6 = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceHeadline6;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItem = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItemSecondary = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItemSmall = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceOverline = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceOverline;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::JubilantWaffle.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceSubtitle1 = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceSubtitle1;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceSubtitle2 = global::JubilantWaffle.Droid.Resource.Attribute.textAppearanceSubtitle2;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textColorAlertDialogListItem = global::JubilantWaffle.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textColorSearchUrl = global::JubilantWaffle.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textEndPadding = global::JubilantWaffle.Droid.Resource.Attribute.textEndPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textInputStyle = global::JubilantWaffle.Droid.Resource.Attribute.textInputStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textStartPadding = global::JubilantWaffle.Droid.Resource.Attribute.textStartPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.theme = global::JubilantWaffle.Droid.Resource.Attribute.theme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thickness = global::JubilantWaffle.Droid.Resource.Attribute.thickness;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTextPadding = global::JubilantWaffle.Droid.Resource.Attribute.thumbTextPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTint = global::JubilantWaffle.Droid.Resource.Attribute.thumbTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTintMode = global::JubilantWaffle.Droid.Resource.Attribute.thumbTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMark = global::JubilantWaffle.Droid.Resource.Attribute.tickMark;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMarkTint = global::JubilantWaffle.Droid.Resource.Attribute.tickMarkTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMarkTintMode = global::JubilantWaffle.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tint = global::JubilantWaffle.Droid.Resource.Attribute.tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tintMode = global::JubilantWaffle.Droid.Resource.Attribute.tintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.title = global::JubilantWaffle.Droid.Resource.Attribute.title;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleEnabled = global::JubilantWaffle.Droid.Resource.Attribute.titleEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleMargin = global::JubilantWaffle.Droid.Resource.Attribute.titleMargin;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleMarginBottom = global::JubilantWaffle.Droid.Resource.Attribute.titleMarginBottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleMarginEnd = global::JubilantWaffle.Droid.Resource.Attribute.titleMarginEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleMarginStart = global::JubilantWaffle.Droid.Resource.Attribute.titleMarginStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleMarginTop = global::JubilantWaffle.Droid.Resource.Attribute.titleMarginTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleMargins = global::JubilantWaffle.Droid.Resource.Attribute.titleMargins;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleTextAppearance = global::JubilantWaffle.Droid.Resource.Attribute.titleTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleTextColor = global::JubilantWaffle.Droid.Resource.Attribute.titleTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleTextStyle = global::JubilantWaffle.Droid.Resource.Attribute.titleTextStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.toolbarId = global::JubilantWaffle.Droid.Resource.Attribute.toolbarId;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::JubilantWaffle.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.toolbarStyle = global::JubilantWaffle.Droid.Resource.Attribute.toolbarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipForegroundColor = global::JubilantWaffle.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipFrameBackground = global::JubilantWaffle.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipText = global::JubilantWaffle.Droid.Resource.Attribute.tooltipText;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.track = global::JubilantWaffle.Droid.Resource.Attribute.track;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackTint = global::JubilantWaffle.Droid.Resource.Attribute.trackTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackTintMode = global::JubilantWaffle.Droid.Resource.Attribute.trackTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ttcIndex = global::JubilantWaffle.Droid.Resource.Attribute.ttcIndex;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.useCompatPadding = global::JubilantWaffle.Droid.Resource.Attribute.useCompatPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.viewInflaterClass = global::JubilantWaffle.Droid.Resource.Attribute.viewInflaterClass;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.voiceIcon = global::JubilantWaffle.Droid.Resource.Attribute.voiceIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowActionBar = global::JubilantWaffle.Droid.Resource.Attribute.windowActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowActionBarOverlay = global::JubilantWaffle.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowActionModeOverlay = global::JubilantWaffle.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowFixedHeightMajor = global::JubilantWaffle.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowFixedHeightMinor = global::JubilantWaffle.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowFixedWidthMajor = global::JubilantWaffle.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowFixedWidthMinor = global::JubilantWaffle.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowMinWidthMajor = global::JubilantWaffle.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowMinWidthMinor = global::JubilantWaffle.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowNoTitle = global::JubilantWaffle.Droid.Resource.Attribute.windowNoTitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::JubilantWaffle.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::JubilantWaffle.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::JubilantWaffle.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Xamarin.Forms.Platform.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::JubilantWaffle.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::JubilantWaffle.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::JubilantWaffle.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::JubilantWaffle.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_btn_colored_text_material = global::JubilantWaffle.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_color_highlight_material = global::JubilantWaffle.Droid.Resource.Color.abc_color_highlight_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_hint_foreground_material_dark = global::JubilantWaffle.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_hint_foreground_material_light = global::JubilantWaffle.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_input_method_navigation_guard = global::JubilantWaffle.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::JubilantWaffle.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::JubilantWaffle.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_primary_text_material_dark = global::JubilantWaffle.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_primary_text_material_light = global::JubilantWaffle.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_search_url_text = global::JubilantWaffle.Droid.Resource.Color.abc_search_url_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_search_url_text_normal = global::JubilantWaffle.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_search_url_text_pressed = global::JubilantWaffle.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_search_url_text_selected = global::JubilantWaffle.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_secondary_text_material_dark = global::JubilantWaffle.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_secondary_text_material_light = global::JubilantWaffle.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_btn_checkable = global::JubilantWaffle.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_default = global::JubilantWaffle.Droid.Resource.Color.abc_tint_default;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_edittext = global::JubilantWaffle.Droid.Resource.Color.abc_tint_edittext;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_seek_thumb = global::JubilantWaffle.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_spinner = global::JubilantWaffle.Droid.Resource.Color.abc_tint_spinner;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_switch_track = global::JubilantWaffle.Droid.Resource.Color.abc_tint_switch_track;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.accent_material_dark = global::JubilantWaffle.Droid.Resource.Color.accent_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.accent_material_light = global::JubilantWaffle.Droid.Resource.Color.accent_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.background_floating_material_dark = global::JubilantWaffle.Droid.Resource.Color.background_floating_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.background_floating_material_light = global::JubilantWaffle.Droid.Resource.Color.background_floating_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.background_material_dark = global::JubilantWaffle.Droid.Resource.Color.background_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.background_material_light = global::JubilantWaffle.Droid.Resource.Color.background_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.bright_foreground_disabled_material_dark = global::JubilantWaffle.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.bright_foreground_disabled_material_light = global::JubilantWaffle.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.bright_foreground_inverse_material_dark = global::JubilantWaffle.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.bright_foreground_inverse_material_light = global::JubilantWaffle.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.bright_foreground_material_dark = global::JubilantWaffle.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.bright_foreground_material_light = global::JubilantWaffle.Droid.Resource.Color.bright_foreground_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.button_material_dark = global::JubilantWaffle.Droid.Resource.Color.button_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.button_material_light = global::JubilantWaffle.Droid.Resource.Color.button_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_dark_background = global::JubilantWaffle.Droid.Resource.Color.cardview_dark_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_light_background = global::JubilantWaffle.Droid.Resource.Color.cardview_light_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_end_color = global::JubilantWaffle.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_start_color = global::JubilantWaffle.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.design_bottom_navigation_shadow_color = global::JubilantWaffle.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_primary = global::JubilantWaffle.Droid.Resource.Color.design_default_color_primary;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_primary_dark = global::JubilantWaffle.Droid.Resource.Color.design_default_color_primary_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.design_error = global::JubilantWaffle.Droid.Resource.Color.design_error;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_shadow_end_color = global::JubilantWaffle.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_shadow_mid_color = global::JubilantWaffle.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_shadow_start_color = global::JubilantWaffle.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_end_inner_color = global::JubilantWaffle.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_end_outer_color = global::JubilantWaffle.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_top_inner_color = global::JubilantWaffle.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_top_outer_color = global::JubilantWaffle.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.design_snackbar_background_color = global::JubilantWaffle.Droid.Resource.Color.design_snackbar_background_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.design_tint_password_toggle = global::JubilantWaffle.Droid.Resource.Color.design_tint_password_toggle;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_disabled_material_dark = global::JubilantWaffle.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_disabled_material_light = global::JubilantWaffle.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_material_dark = global::JubilantWaffle.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_material_light = global::JubilantWaffle.Droid.Resource.Color.dim_foreground_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.error_color_material_dark = global::JubilantWaffle.Droid.Resource.Color.error_color_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.error_color_material_light = global::JubilantWaffle.Droid.Resource.Color.error_color_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.foreground_material_dark = global::JubilantWaffle.Droid.Resource.Color.foreground_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.foreground_material_light = global::JubilantWaffle.Droid.Resource.Color.foreground_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.highlighted_text_material_dark = global::JubilantWaffle.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.highlighted_text_material_light = global::JubilantWaffle.Droid.Resource.Color.highlighted_text_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.material_blue_grey_800 = global::JubilantWaffle.Droid.Resource.Color.material_blue_grey_800;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.material_blue_grey_900 = global::JubilantWaffle.Droid.Resource.Color.material_blue_grey_900;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.material_blue_grey_950 = global::JubilantWaffle.Droid.Resource.Color.material_blue_grey_950;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.material_deep_teal_200 = global::JubilantWaffle.Droid.Resource.Color.material_deep_teal_200;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.material_deep_teal_500 = global::JubilantWaffle.Droid.Resource.Color.material_deep_teal_500;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_100 = global::JubilantWaffle.Droid.Resource.Color.material_grey_100;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_300 = global::JubilantWaffle.Droid.Resource.Color.material_grey_300;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_50 = global::JubilantWaffle.Droid.Resource.Color.material_grey_50;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_600 = global::JubilantWaffle.Droid.Resource.Color.material_grey_600;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_800 = global::JubilantWaffle.Droid.Resource.Color.material_grey_800;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_850 = global::JubilantWaffle.Droid.Resource.Color.material_grey_850;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_900 = global::JubilantWaffle.Droid.Resource.Color.material_grey_900;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::JubilantWaffle.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_item_tint = global::JubilantWaffle.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_bg_color_disabled = global::JubilantWaffle.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_bg_color_selector = global::JubilantWaffle.Droid.Resource.Color.mtrl_btn_bg_color_selector;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_ripple_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_btn_ripple_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_stroke_color_selector = global::JubilantWaffle.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_text_btn_ripple_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_text_color_disabled = global::JubilantWaffle.Droid.Resource.Color.mtrl_btn_text_color_disabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_text_color_selector = global::JubilantWaffle.Droid.Resource.Color.mtrl_btn_text_color_selector;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_transparent_bg_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_background_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_chip_background_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_close_icon_tint = global::JubilantWaffle.Droid.Resource.Color.mtrl_chip_close_icon_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_ripple_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_chip_ripple_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_text_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_chip_text_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_fab_ripple_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_fab_ripple_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_scrim_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_scrim_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_tabs_colored_ripple_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_tabs_icon_color_selector = global::JubilantWaffle.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::JubilantWaffle.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::JubilantWaffle.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_tabs_ripple_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_tabs_ripple_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_text_btn_text_color_selector = global::JubilantWaffle.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_default_box_stroke_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_disabled_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_textinput_disabled_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::JubilantWaffle.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.notification_action_color_filter = global::JubilantWaffle.Droid.Resource.Color.notification_action_color_filter;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.notification_icon_bg_color = global::JubilantWaffle.Droid.Resource.Color.notification_icon_bg_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.notification_material_background_media_default_color = global::JubilantWaffle.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_dark_material_dark = global::JubilantWaffle.Droid.Resource.Color.primary_dark_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_dark_material_light = global::JubilantWaffle.Droid.Resource.Color.primary_dark_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_material_dark = global::JubilantWaffle.Droid.Resource.Color.primary_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_material_light = global::JubilantWaffle.Droid.Resource.Color.primary_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_default_material_dark = global::JubilantWaffle.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_default_material_light = global::JubilantWaffle.Droid.Resource.Color.primary_text_default_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_dark = global::JubilantWaffle.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_light = global::JubilantWaffle.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_dark = global::JubilantWaffle.Droid.Resource.Color.ripple_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_light = global::JubilantWaffle.Droid.Resource.Color.ripple_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_default_material_dark = global::JubilantWaffle.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_default_material_light = global::JubilantWaffle.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_disabled_material_dark = global::JubilantWaffle.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_disabled_material_light = global::JubilantWaffle.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_disabled_material_dark = global::JubilantWaffle.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_disabled_material_light = global::JubilantWaffle.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_material_dark = global::JubilantWaffle.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_material_light = global::JubilantWaffle.Droid.Resource.Color.switch_thumb_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_dark = global::JubilantWaffle.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_light = global::JubilantWaffle.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_dark = global::JubilantWaffle.Droid.Resource.Color.tooltip_background_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_light = global::JubilantWaffle.Droid.Resource.Color.tooltip_background_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_default_height_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_elevation_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_button_min_height_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_button_min_width_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::JubilantWaffle.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_alert_dialog_button_dimen = global::JubilantWaffle.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_button_inset_vertical_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_button_padding_vertical_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::JubilantWaffle.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_config_prefDialogWidth = global::JubilantWaffle.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_control_corner_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_control_inset_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_control_padding_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_corner_radius_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::JubilantWaffle.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::JubilantWaffle.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::JubilantWaffle.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::JubilantWaffle.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::JubilantWaffle.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::JubilantWaffle.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_min_width_major = global::JubilantWaffle.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_min_width_minor = global::JubilantWaffle.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_padding_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_padding_top_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_title_divider_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::JubilantWaffle.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::JubilantWaffle.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::JubilantWaffle.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::JubilantWaffle.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::JubilantWaffle.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_floating_window_z = global::JubilantWaffle.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_panel_menu_list_width = global::JubilantWaffle.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_progress_bar_height_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_search_view_preferred_height = global::JubilantWaffle.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_search_view_preferred_width = global::JubilantWaffle.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_switch_padding = global::JubilantWaffle.Droid.Resource.Dimension.abc_switch_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_body_1_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_body_2_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_button_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_caption_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_display_1_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_display_2_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_display_3_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_display_4_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_headline_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_large_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_medium_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_menu_header_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_menu_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_small_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_subhead_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::JubilantWaffle.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_compat_inset_shadow = global::JubilantWaffle.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_default_elevation = global::JubilantWaffle.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_default_radius = global::JubilantWaffle.Droid.Resource.Dimension.cardview_default_radius;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::JubilantWaffle.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_button_inset_vertical_material = global::JubilantWaffle.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::JubilantWaffle.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_button_padding_vertical_material = global::JubilantWaffle.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_control_corner_material = global::JubilantWaffle.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::JubilantWaffle.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::JubilantWaffle.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_appbar_elevation = global::JubilantWaffle.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::JubilantWaffle.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::JubilantWaffle.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::JubilantWaffle.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_elevation = global::JubilantWaffle.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_height = global::JubilantWaffle.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_icon_size = global::JubilantWaffle.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::JubilantWaffle.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::JubilantWaffle.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_margin = global::JubilantWaffle.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::JubilantWaffle.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_text_size = global::JubilantWaffle.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::JubilantWaffle.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::JubilantWaffle.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_border_width = global::JubilantWaffle.Droid.Resource.Dimension.design_fab_border_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_elevation = global::JubilantWaffle.Droid.Resource.Dimension.design_fab_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_image_size = global::JubilantWaffle.Droid.Resource.Dimension.design_fab_image_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_size_mini = global::JubilantWaffle.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_size_normal = global::JubilantWaffle.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_translation_z_hovered_focused = global::JubilantWaffle.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_translation_z_pressed = global::JubilantWaffle.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_elevation = global::JubilantWaffle.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_icon_padding = global::JubilantWaffle.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_icon_size = global::JubilantWaffle.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_item_horizontal_padding = global::JubilantWaffle.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_item_icon_padding = global::JubilantWaffle.Droid.Resource.Dimension.design_navigation_item_icon_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_max_width = global::JubilantWaffle.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_padding_bottom = global::JubilantWaffle.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::JubilantWaffle.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::JubilantWaffle.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::JubilantWaffle.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_elevation = global::JubilantWaffle.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::JubilantWaffle.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_max_width = global::JubilantWaffle.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_min_width = global::JubilantWaffle.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::JubilantWaffle.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_padding_vertical = global::JubilantWaffle.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::JubilantWaffle.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_text_size = global::JubilantWaffle.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_tab_max_width = global::JubilantWaffle.Droid.Resource.Dimension.design_tab_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_tab_scrollable_min_width = global::JubilantWaffle.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_tab_text_size = global::JubilantWaffle.Droid.Resource.Dimension.design_tab_text_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_tab_text_size_2line = global::JubilantWaffle.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_textinput_caption_translate_y = global::JubilantWaffle.Droid.Resource.Dimension.design_textinput_caption_translate_y;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.disabled_alpha_material_dark = global::JubilantWaffle.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.disabled_alpha_material_light = global::JubilantWaffle.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.fastscroll_default_thickness = global::JubilantWaffle.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.fastscroll_margin = global::JubilantWaffle.Droid.Resource.Dimension.fastscroll_margin;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.fastscroll_minimum_range = global::JubilantWaffle.Droid.Resource.Dimension.fastscroll_minimum_range;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.highlight_alpha_material_colored = global::JubilantWaffle.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.highlight_alpha_material_dark = global::JubilantWaffle.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.highlight_alpha_material_light = global::JubilantWaffle.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.hint_alpha_material_dark = global::JubilantWaffle.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.hint_alpha_material_light = global::JubilantWaffle.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::JubilantWaffle.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::JubilantWaffle.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::JubilantWaffle.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::JubilantWaffle.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::JubilantWaffle.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_height = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_bottomappbar_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_corner_radius = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_corner_radius;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_disabled_elevation = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_disabled_z = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_disabled_z;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_elevation = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_focused_z = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_focused_z;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_hovered_z = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_hovered_z;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_icon_padding = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_icon_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_inset = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_inset;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_letter_spacing = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_padding_bottom = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_padding_left = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_padding_left;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_padding_right = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_padding_right;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_padding_top = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_padding_top;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_pressed_z = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_pressed_z;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_stroke_size = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_stroke_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_text_size = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_text_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_z = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_btn_z;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_elevation = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_card_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_spacing = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_card_spacing;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_text_size = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_chip_text_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_fab_elevation = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_fab_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_fab_translation_z_pressed = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_elevation = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_navigation_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_item_icon_padding = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_margin = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_snackbar_margin;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_padding_end = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_toolbar_default_height = global::JubilantWaffle.Droid.Resource.Dimension.mtrl_toolbar_default_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_action_icon_size = global::JubilantWaffle.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_action_text_size = global::JubilantWaffle.Droid.Resource.Dimension.notification_action_text_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_big_circle_margin = global::JubilantWaffle.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_content_margin_start = global::JubilantWaffle.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_large_icon_height = global::JubilantWaffle.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_large_icon_width = global::JubilantWaffle.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_main_column_padding_top = global::JubilantWaffle.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_media_narrow_margin = global::JubilantWaffle.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_right_icon_size = global::JubilantWaffle.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_right_side_padding_top = global::JubilantWaffle.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_small_icon_background_padding = global::JubilantWaffle.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_small_icon_size_as_large = global::JubilantWaffle.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_subtext_size = global::JubilantWaffle.Droid.Resource.Dimension.notification_subtext_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad = global::JubilantWaffle.Droid.Resource.Dimension.notification_top_pad;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad_large_text = global::JubilantWaffle.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.subtitle_corner_radius = global::JubilantWaffle.Droid.Resource.Dimension.subtitle_corner_radius;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.subtitle_outline_width = global::JubilantWaffle.Droid.Resource.Dimension.subtitle_outline_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.subtitle_shadow_offset = global::JubilantWaffle.Droid.Resource.Dimension.subtitle_shadow_offset;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.subtitle_shadow_radius = global::JubilantWaffle.Droid.Resource.Dimension.subtitle_shadow_radius;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_corner_radius = global::JubilantWaffle.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_horizontal_padding = global::JubilantWaffle.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_margin = global::JubilantWaffle.Droid.Resource.Dimension.tooltip_margin;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::JubilantWaffle.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::JubilantWaffle.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_vertical_padding = global::JubilantWaffle.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::JubilantWaffle.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_y_offset_touch = global::JubilantWaffle.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_action_bar_item_background_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_borderless_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::JubilantWaffle.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::JubilantWaffle.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_colored_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::JubilantWaffle.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::JubilantWaffle.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::JubilantWaffle.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::JubilantWaffle.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::JubilantWaffle.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_cab_background_internal_bg = global::JubilantWaffle.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_cab_background_top_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_control_background_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_control_background_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_dialog_material_background = global::JubilantWaffle.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_edit_text_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_ab_back_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_clear_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_go_search_api_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_search_api_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_black_16dp = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_black_36dp = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_black_48dp = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_item_background_holo_dark = global::JubilantWaffle.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_item_background_holo_light = global::JubilantWaffle.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_divider_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_list_divider_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_focused_holo = global::JubilantWaffle.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_longpressed_holo = global::JubilantWaffle.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::JubilantWaffle.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_pressed_holo_light = global::JubilantWaffle.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::JubilantWaffle.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::JubilantWaffle.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::JubilantWaffle.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::JubilantWaffle.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_selector_holo_dark = global::JubilantWaffle.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_selector_holo_light = global::JubilantWaffle.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::JubilantWaffle.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::JubilantWaffle.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ratingbar_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ratingbar_small_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::JubilantWaffle.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::JubilantWaffle.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_seekbar_thumb_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_seekbar_track_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_switch_thumb_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_tab_indicator_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_cursor_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::JubilantWaffle.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::JubilantWaffle.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::JubilantWaffle.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::JubilantWaffle.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::JubilantWaffle.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::JubilantWaffle.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::JubilantWaffle.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_textfield_search_material = global::JubilantWaffle.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_vector_test = global::JubilantWaffle.Droid.Resource.Drawable.abc_vector_test;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_hide_password = global::JubilantWaffle.Droid.Resource.Drawable.avd_hide_password;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_show_password = global::JubilantWaffle.Droid.Resource.Drawable.avd_show_password;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_bottom_navigation_item_background = global::JubilantWaffle.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_fab_background = global::JubilantWaffle.Droid.Resource.Drawable.design_fab_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_ic_visibility = global::JubilantWaffle.Droid.Resource.Drawable.design_ic_visibility;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_ic_visibility_off = global::JubilantWaffle.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_password_eye = global::JubilantWaffle.Droid.Resource.Drawable.design_password_eye;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_snackbar_background = global::JubilantWaffle.Droid.Resource.Drawable.design_snackbar_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_chip_checked_black = global::JubilantWaffle.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_chip_checked_circle = global::JubilantWaffle.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_chip_close_circle = global::JubilantWaffle.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_snackbar_background = global::JubilantWaffle.Droid.Resource.Drawable.mtrl_snackbar_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_tabs_default_indicator = global::JubilantWaffle.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.navigation_empty_icon = global::JubilantWaffle.Droid.Resource.Drawable.navigation_empty_icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_action_background = global::JubilantWaffle.Droid.Resource.Drawable.notification_action_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_bg = global::JubilantWaffle.Droid.Resource.Drawable.notification_bg;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_bg_low = global::JubilantWaffle.Droid.Resource.Drawable.notification_bg_low;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_bg_low_normal = global::JubilantWaffle.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_bg_low_pressed = global::JubilantWaffle.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_bg_normal = global::JubilantWaffle.Droid.Resource.Drawable.notification_bg_normal;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_bg_normal_pressed = global::JubilantWaffle.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_icon_background = global::JubilantWaffle.Droid.Resource.Drawable.notification_icon_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_template_icon_bg = global::JubilantWaffle.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_template_icon_low_bg = global::JubilantWaffle.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_tile_bg = global::JubilantWaffle.Droid.Resource.Drawable.notification_tile_bg;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::JubilantWaffle.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_dark = global::JubilantWaffle.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_light = global::JubilantWaffle.Droid.Resource.Drawable.tooltip_frame_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.ALT = global::JubilantWaffle.Droid.Resource.Id.ALT;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.CTRL = global::JubilantWaffle.Droid.Resource.Id.CTRL;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.FUNCTION = global::JubilantWaffle.Droid.Resource.Id.FUNCTION;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.META = global::JubilantWaffle.Droid.Resource.Id.META;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.SHIFT = global::JubilantWaffle.Droid.Resource.Id.SHIFT;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.SYM = global::JubilantWaffle.Droid.Resource.Id.SYM;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action0 = global::JubilantWaffle.Droid.Resource.Id.action0;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar = global::JubilantWaffle.Droid.Resource.Id.action_bar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar_activity_content = global::JubilantWaffle.Droid.Resource.Id.action_bar_activity_content;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar_container = global::JubilantWaffle.Droid.Resource.Id.action_bar_container;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar_root = global::JubilantWaffle.Droid.Resource.Id.action_bar_root;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar_spinner = global::JubilantWaffle.Droid.Resource.Id.action_bar_spinner;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar_subtitle = global::JubilantWaffle.Droid.Resource.Id.action_bar_subtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar_title = global::JubilantWaffle.Droid.Resource.Id.action_bar_title;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_container = global::JubilantWaffle.Droid.Resource.Id.action_container;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_context_bar = global::JubilantWaffle.Droid.Resource.Id.action_context_bar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_divider = global::JubilantWaffle.Droid.Resource.Id.action_divider;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_image = global::JubilantWaffle.Droid.Resource.Id.action_image;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_menu_divider = global::JubilantWaffle.Droid.Resource.Id.action_menu_divider;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_menu_presenter = global::JubilantWaffle.Droid.Resource.Id.action_menu_presenter;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_mode_bar = global::JubilantWaffle.Droid.Resource.Id.action_mode_bar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_mode_bar_stub = global::JubilantWaffle.Droid.Resource.Id.action_mode_bar_stub;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_mode_close_button = global::JubilantWaffle.Droid.Resource.Id.action_mode_close_button;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.action_text = global::JubilantWaffle.Droid.Resource.Id.action_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.actions = global::JubilantWaffle.Droid.Resource.Id.actions;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.activity_chooser_view_content = global::JubilantWaffle.Droid.Resource.Id.activity_chooser_view_content;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.add = global::JubilantWaffle.Droid.Resource.Id.add;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.alertTitle = global::JubilantWaffle.Droid.Resource.Id.alertTitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.all = global::JubilantWaffle.Droid.Resource.Id.all;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.always = global::JubilantWaffle.Droid.Resource.Id.always;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.async = global::JubilantWaffle.Droid.Resource.Id.async;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.auto = global::JubilantWaffle.Droid.Resource.Id.auto;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.beginning = global::JubilantWaffle.Droid.Resource.Id.beginning;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.blocking = global::JubilantWaffle.Droid.Resource.Id.blocking;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.bottom = global::JubilantWaffle.Droid.Resource.Id.bottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.bottomtab_navarea = global::JubilantWaffle.Droid.Resource.Id.bottomtab_navarea;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.bottomtab_tabbar = global::JubilantWaffle.Droid.Resource.Id.bottomtab_tabbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.buttonPanel = global::JubilantWaffle.Droid.Resource.Id.buttonPanel;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.cancel_action = global::JubilantWaffle.Droid.Resource.Id.cancel_action;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.center = global::JubilantWaffle.Droid.Resource.Id.center;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.center_horizontal = global::JubilantWaffle.Droid.Resource.Id.center_horizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.center_vertical = global::JubilantWaffle.Droid.Resource.Id.center_vertical;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.checkbox = global::JubilantWaffle.Droid.Resource.Id.checkbox;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chronometer = global::JubilantWaffle.Droid.Resource.Id.chronometer;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.clip_horizontal = global::JubilantWaffle.Droid.Resource.Id.clip_horizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.clip_vertical = global::JubilantWaffle.Droid.Resource.Id.clip_vertical;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.collapseActionView = global::JubilantWaffle.Droid.Resource.Id.collapseActionView;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.container = global::JubilantWaffle.Droid.Resource.Id.container;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.content = global::JubilantWaffle.Droid.Resource.Id.content;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.contentPanel = global::JubilantWaffle.Droid.Resource.Id.contentPanel;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.coordinator = global::JubilantWaffle.Droid.Resource.Id.coordinator;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.custom = global::JubilantWaffle.Droid.Resource.Id.custom;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.customPanel = global::JubilantWaffle.Droid.Resource.Id.customPanel;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.decor_content_parent = global::JubilantWaffle.Droid.Resource.Id.decor_content_parent;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.default_activity_button = global::JubilantWaffle.Droid.Resource.Id.default_activity_button;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.design_bottom_sheet = global::JubilantWaffle.Droid.Resource.Id.design_bottom_sheet;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.design_menu_item_action_area = global::JubilantWaffle.Droid.Resource.Id.design_menu_item_action_area;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.design_menu_item_action_area_stub = global::JubilantWaffle.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.design_menu_item_text = global::JubilantWaffle.Droid.Resource.Id.design_menu_item_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.design_navigation_view = global::JubilantWaffle.Droid.Resource.Id.design_navigation_view;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.disableHome = global::JubilantWaffle.Droid.Resource.Id.disableHome;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.edit_query = global::JubilantWaffle.Droid.Resource.Id.edit_query;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.end = global::JubilantWaffle.Droid.Resource.Id.end;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.end_padder = global::JubilantWaffle.Droid.Resource.Id.end_padder;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.enterAlways = global::JubilantWaffle.Droid.Resource.Id.enterAlways;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.enterAlwaysCollapsed = global::JubilantWaffle.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.exitUntilCollapsed = global::JubilantWaffle.Droid.Resource.Id.exitUntilCollapsed;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.expand_activities_button = global::JubilantWaffle.Droid.Resource.Id.expand_activities_button;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.expanded_menu = global::JubilantWaffle.Droid.Resource.Id.expanded_menu;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.fill = global::JubilantWaffle.Droid.Resource.Id.fill;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.fill_horizontal = global::JubilantWaffle.Droid.Resource.Id.fill_horizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.fill_vertical = global::JubilantWaffle.Droid.Resource.Id.fill_vertical;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.filled = global::JubilantWaffle.Droid.Resource.Id.filled;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::JubilantWaffle.Droid.Resource.Id.@fixed;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::JubilantWaffle.Droid.Resource.Id.flyoutcontent_appbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_recycler = global::JubilantWaffle.Droid.Resource.Id.flyoutcontent_recycler;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::JubilantWaffle.Droid.Resource.Id.forever;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::JubilantWaffle.Droid.Resource.Id.ghost_view;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.group_divider = global::JubilantWaffle.Droid.Resource.Id.group_divider;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::JubilantWaffle.Droid.Resource.Id.home;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.homeAsUp = global::JubilantWaffle.Droid.Resource.Id.homeAsUp;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.icon = global::JubilantWaffle.Droid.Resource.Id.icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.icon_group = global::JubilantWaffle.Droid.Resource.Id.icon_group;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.ifRoom = global::JubilantWaffle.Droid.Resource.Id.ifRoom;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.image = global::JubilantWaffle.Droid.Resource.Id.image;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.info = global::JubilantWaffle.Droid.Resource.Id.info;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.italic = global::JubilantWaffle.Droid.Resource.Id.italic;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.item_touch_helper_previous_elevation = global::JubilantWaffle.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.labeled = global::JubilantWaffle.Droid.Resource.Id.labeled;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.largeLabel = global::JubilantWaffle.Droid.Resource.Id.largeLabel;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.left = global::JubilantWaffle.Droid.Resource.Id.left;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.line1 = global::JubilantWaffle.Droid.Resource.Id.line1;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.line3 = global::JubilantWaffle.Droid.Resource.Id.line3;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.listMode = global::JubilantWaffle.Droid.Resource.Id.listMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.list_item = global::JubilantWaffle.Droid.Resource.Id.list_item;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.main_appbar = global::JubilantWaffle.Droid.Resource.Id.main_appbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.main_tablayout = global::JubilantWaffle.Droid.Resource.Id.main_tablayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.main_toolbar = global::JubilantWaffle.Droid.Resource.Id.main_toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.main_viewpager = global::JubilantWaffle.Droid.Resource.Id.main_viewpager;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.masked = global::JubilantWaffle.Droid.Resource.Id.masked;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.media_actions = global::JubilantWaffle.Droid.Resource.Id.media_actions;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.message = global::JubilantWaffle.Droid.Resource.Id.message;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.middle = global::JubilantWaffle.Droid.Resource.Id.middle;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.mini = global::JubilantWaffle.Droid.Resource.Id.mini;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_child_content_container = global::JubilantWaffle.Droid.Resource.Id.mtrl_child_content_container;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_internal_children_alpha_tag = global::JubilantWaffle.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.multiply = global::JubilantWaffle.Droid.Resource.Id.multiply;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.navigation_header_container = global::JubilantWaffle.Droid.Resource.Id.navigation_header_container;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.never = global::JubilantWaffle.Droid.Resource.Id.never;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.none = global::JubilantWaffle.Droid.Resource.Id.none;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.normal = global::JubilantWaffle.Droid.Resource.Id.normal;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_background = global::JubilantWaffle.Droid.Resource.Id.notification_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_main_column = global::JubilantWaffle.Droid.Resource.Id.notification_main_column;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_main_column_container = global::JubilantWaffle.Droid.Resource.Id.notification_main_column_container;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.outline = global::JubilantWaffle.Droid.Resource.Id.outline;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.parallax = global::JubilantWaffle.Droid.Resource.Id.parallax;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.parentPanel = global::JubilantWaffle.Droid.Resource.Id.parentPanel;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.parent_matrix = global::JubilantWaffle.Droid.Resource.Id.parent_matrix;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.pin = global::JubilantWaffle.Droid.Resource.Id.pin;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.progress_circular = global::JubilantWaffle.Droid.Resource.Id.progress_circular;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.progress_horizontal = global::JubilantWaffle.Droid.Resource.Id.progress_horizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.radio = global::JubilantWaffle.Droid.Resource.Id.radio;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.right = global::JubilantWaffle.Droid.Resource.Id.right;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.right_icon = global::JubilantWaffle.Droid.Resource.Id.right_icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.right_side = global::JubilantWaffle.Droid.Resource.Id.right_side;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.save_image_matrix = global::JubilantWaffle.Droid.Resource.Id.save_image_matrix;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.save_non_transition_alpha = global::JubilantWaffle.Droid.Resource.Id.save_non_transition_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.save_scale_type = global::JubilantWaffle.Droid.Resource.Id.save_scale_type;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.screen = global::JubilantWaffle.Droid.Resource.Id.screen;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.scroll = global::JubilantWaffle.Droid.Resource.Id.scroll;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollIndicatorDown = global::JubilantWaffle.Droid.Resource.Id.scrollIndicatorDown;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollIndicatorUp = global::JubilantWaffle.Droid.Resource.Id.scrollIndicatorUp;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollView = global::JubilantWaffle.Droid.Resource.Id.scrollView;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollable = global::JubilantWaffle.Droid.Resource.Id.scrollable;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.search_badge = global::JubilantWaffle.Droid.Resource.Id.search_badge;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.search_bar = global::JubilantWaffle.Droid.Resource.Id.search_bar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.search_button = global::JubilantWaffle.Droid.Resource.Id.search_button;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.search_close_btn = global::JubilantWaffle.Droid.Resource.Id.search_close_btn;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.search_edit_frame = global::JubilantWaffle.Droid.Resource.Id.search_edit_frame;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.search_go_btn = global::JubilantWaffle.Droid.Resource.Id.search_go_btn;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.search_mag_icon = global::JubilantWaffle.Droid.Resource.Id.search_mag_icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.search_plate = global::JubilantWaffle.Droid.Resource.Id.search_plate;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.search_src_text = global::JubilantWaffle.Droid.Resource.Id.search_src_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.search_voice_btn = global::JubilantWaffle.Droid.Resource.Id.search_voice_btn;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.select_dialog_listview = global::JubilantWaffle.Droid.Resource.Id.select_dialog_listview;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.selected = global::JubilantWaffle.Droid.Resource.Id.selected;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.shellcontent_appbar = global::JubilantWaffle.Droid.Resource.Id.shellcontent_appbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.shellcontent_toolbar = global::JubilantWaffle.Droid.Resource.Id.shellcontent_toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.shortcut = global::JubilantWaffle.Droid.Resource.Id.shortcut;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.showCustom = global::JubilantWaffle.Droid.Resource.Id.showCustom;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.showHome = global::JubilantWaffle.Droid.Resource.Id.showHome;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.showTitle = global::JubilantWaffle.Droid.Resource.Id.showTitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.smallLabel = global::JubilantWaffle.Droid.Resource.Id.smallLabel;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.snackbar_action = global::JubilantWaffle.Droid.Resource.Id.snackbar_action;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.snackbar_text = global::JubilantWaffle.Droid.Resource.Id.snackbar_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.snap = global::JubilantWaffle.Droid.Resource.Id.snap;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.snapMargins = global::JubilantWaffle.Droid.Resource.Id.snapMargins;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.spacer = global::JubilantWaffle.Droid.Resource.Id.spacer;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.split_action_bar = global::JubilantWaffle.Droid.Resource.Id.split_action_bar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.src_atop = global::JubilantWaffle.Droid.Resource.Id.src_atop;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.src_in = global::JubilantWaffle.Droid.Resource.Id.src_in;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.src_over = global::JubilantWaffle.Droid.Resource.Id.src_over;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.start = global::JubilantWaffle.Droid.Resource.Id.start;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.status_bar_latest_event_content = global::JubilantWaffle.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.stretch = global::JubilantWaffle.Droid.Resource.Id.stretch;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.submenuarrow = global::JubilantWaffle.Droid.Resource.Id.submenuarrow;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.submit_area = global::JubilantWaffle.Droid.Resource.Id.submit_area;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.tabMode = global::JubilantWaffle.Droid.Resource.Id.tabMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_transition_group = global::JubilantWaffle.Droid.Resource.Id.tag_transition_group;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_event_manager = global::JubilantWaffle.Droid.Resource.Id.tag_unhandled_key_event_manager;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_listeners = global::JubilantWaffle.Droid.Resource.Id.tag_unhandled_key_listeners;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.text = global::JubilantWaffle.Droid.Resource.Id.text;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.text2 = global::JubilantWaffle.Droid.Resource.Id.text2;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.textSpacerNoButtons = global::JubilantWaffle.Droid.Resource.Id.textSpacerNoButtons;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.textSpacerNoTitle = global::JubilantWaffle.Droid.Resource.Id.textSpacerNoTitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.textStart = global::JubilantWaffle.Droid.Resource.Id.textStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.text_input_password_toggle = global::JubilantWaffle.Droid.Resource.Id.text_input_password_toggle;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_counter = global::JubilantWaffle.Droid.Resource.Id.textinput_counter;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_error = global::JubilantWaffle.Droid.Resource.Id.textinput_error;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_helper_text = global::JubilantWaffle.Droid.Resource.Id.textinput_helper_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.time = global::JubilantWaffle.Droid.Resource.Id.time;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.title = global::JubilantWaffle.Droid.Resource.Id.title;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.titleDividerNoCustom = global::JubilantWaffle.Droid.Resource.Id.titleDividerNoCustom;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.title_template = global::JubilantWaffle.Droid.Resource.Id.title_template;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.top = global::JubilantWaffle.Droid.Resource.Id.top;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.topPanel = global::JubilantWaffle.Droid.Resource.Id.topPanel;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.touch_outside = global::JubilantWaffle.Droid.Resource.Id.touch_outside;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_current_scene = global::JubilantWaffle.Droid.Resource.Id.transition_current_scene;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_layout_save = global::JubilantWaffle.Droid.Resource.Id.transition_layout_save;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_position = global::JubilantWaffle.Droid.Resource.Id.transition_position;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_scene_layoutid_cache = global::JubilantWaffle.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_transform = global::JubilantWaffle.Droid.Resource.Id.transition_transform;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.uniform = global::JubilantWaffle.Droid.Resource.Id.uniform;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.unlabeled = global::JubilantWaffle.Droid.Resource.Id.unlabeled;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.up = global::JubilantWaffle.Droid.Resource.Id.up;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.useLogo = global::JubilantWaffle.Droid.Resource.Id.useLogo;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.view_offset_helper = global::JubilantWaffle.Droid.Resource.Id.view_offset_helper;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.visible = global::JubilantWaffle.Droid.Resource.Id.visible;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.withText = global::JubilantWaffle.Droid.Resource.Id.withText;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.wrap_content = global::JubilantWaffle.Droid.Resource.Id.wrap_content;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityDefaultDur = global::JubilantWaffle.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityShortDur = global::JubilantWaffle.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.app_bar_elevation_anim_duration = global::JubilantWaffle.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.bottom_sheet_slide_duration = global::JubilantWaffle.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.cancel_button_image_alpha = global::JubilantWaffle.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.config_tooltipAnimTime = global::JubilantWaffle.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.design_snackbar_text_max_lines = global::JubilantWaffle.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.design_tab_indicator_anim_duration_ms = global::JubilantWaffle.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.hide_password_duration = global::JubilantWaffle.Droid.Resource.Integer.hide_password_duration;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_btn_anim_delay_ms = global::JubilantWaffle.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_btn_anim_duration_ms = global::JubilantWaffle.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_chip_anim_duration = global::JubilantWaffle.Droid.Resource.Integer.mtrl_chip_anim_duration;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::JubilantWaffle.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.show_password_duration = global::JubilantWaffle.Droid.Resource.Integer.show_password_duration;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.status_bar_notification_info_maxnum = global::JubilantWaffle.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.mtrl_fast_out_linear_in = global::JubilantWaffle.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
-			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.mtrl_fast_out_slow_in = global::JubilantWaffle.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
-			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.mtrl_linear = global::JubilantWaffle.Droid.Resource.Interpolator.mtrl_linear;
-			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.mtrl_linear_out_slow_in = global::JubilantWaffle.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_action_bar_title_item = global::JubilantWaffle.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_action_bar_up_container = global::JubilantWaffle.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_action_menu_item_layout = global::JubilantWaffle.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_action_menu_layout = global::JubilantWaffle.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_action_mode_bar = global::JubilantWaffle.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_action_mode_close_item_material = global::JubilantWaffle.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_activity_chooser_view = global::JubilantWaffle.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::JubilantWaffle.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::JubilantWaffle.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_alert_dialog_material = global::JubilantWaffle.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_alert_dialog_title_material = global::JubilantWaffle.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_cascading_menu_item_layout = global::JubilantWaffle.Droid.Resource.Layout.abc_cascading_menu_item_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_dialog_title_material = global::JubilantWaffle.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_expanded_menu_layout = global::JubilantWaffle.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_list_menu_item_checkbox = global::JubilantWaffle.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_list_menu_item_icon = global::JubilantWaffle.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_list_menu_item_layout = global::JubilantWaffle.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_list_menu_item_radio = global::JubilantWaffle.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::JubilantWaffle.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_popup_menu_item_layout = global::JubilantWaffle.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_screen_content_include = global::JubilantWaffle.Droid.Resource.Layout.abc_screen_content_include;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_screen_simple = global::JubilantWaffle.Droid.Resource.Layout.abc_screen_simple;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::JubilantWaffle.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_screen_toolbar = global::JubilantWaffle.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::JubilantWaffle.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_view = global::JubilantWaffle.Droid.Resource.Layout.abc_search_view;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_select_dialog_material = global::JubilantWaffle.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_tooltip = global::JubilantWaffle.Droid.Resource.Layout.abc_tooltip;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.BottomTabLayout = global::JubilantWaffle.Droid.Resource.Layout.BottomTabLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_navigation_item = global::JubilantWaffle.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::JubilantWaffle.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_layout_snackbar = global::JubilantWaffle.Droid.Resource.Layout.design_layout_snackbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_layout_snackbar_include = global::JubilantWaffle.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_layout_tab_icon = global::JubilantWaffle.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_layout_tab_text = global::JubilantWaffle.Droid.Resource.Layout.design_layout_tab_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_menu_item_action_area = global::JubilantWaffle.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_item = global::JubilantWaffle.Droid.Resource.Layout.design_navigation_item;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_item_header = global::JubilantWaffle.Droid.Resource.Layout.design_navigation_item_header;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_item_separator = global::JubilantWaffle.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_item_subheader = global::JubilantWaffle.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu = global::JubilantWaffle.Droid.Resource.Layout.design_navigation_menu;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu_item = global::JubilantWaffle.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_password_icon = global::JubilantWaffle.Droid.Resource.Layout.design_text_input_password_icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.FlyoutContent = global::JubilantWaffle.Droid.Resource.Layout.FlyoutContent;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_layout_snackbar = global::JubilantWaffle.Droid.Resource.Layout.mtrl_layout_snackbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_layout_snackbar_include = global::JubilantWaffle.Droid.Resource.Layout.mtrl_layout_snackbar_include;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action = global::JubilantWaffle.Droid.Resource.Layout.notification_action;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action_tombstone = global::JubilantWaffle.Droid.Resource.Layout.notification_action_tombstone;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_media_action = global::JubilantWaffle.Droid.Resource.Layout.notification_media_action;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_media_cancel_action = global::JubilantWaffle.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_big_media = global::JubilantWaffle.Droid.Resource.Layout.notification_template_big_media;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_big_media_custom = global::JubilantWaffle.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_big_media_narrow = global::JubilantWaffle.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::JubilantWaffle.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_custom_big = global::JubilantWaffle.Droid.Resource.Layout.notification_template_custom_big;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_icon_group = global::JubilantWaffle.Droid.Resource.Layout.notification_template_icon_group;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_lines_media = global::JubilantWaffle.Droid.Resource.Layout.notification_template_lines_media;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_media = global::JubilantWaffle.Droid.Resource.Layout.notification_template_media;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_media_custom = global::JubilantWaffle.Droid.Resource.Layout.notification_template_media_custom;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_chronometer = global::JubilantWaffle.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_time = global::JubilantWaffle.Droid.Resource.Layout.notification_template_part_time;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.RootLayout = global::JubilantWaffle.Droid.Resource.Layout.RootLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_item_material = global::JubilantWaffle.Droid.Resource.Layout.select_dialog_item_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_multichoice_material = global::JubilantWaffle.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::JubilantWaffle.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::JubilantWaffle.Droid.Resource.Layout.ShellContent;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::JubilantWaffle.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::JubilantWaffle.Droid.Resource.String.abc_action_bar_home_description;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_up_description = global::JubilantWaffle.Droid.Resource.String.abc_action_bar_up_description;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_menu_overflow_description = global::JubilantWaffle.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_mode_done = global::JubilantWaffle.Droid.Resource.String.abc_action_mode_done;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_activity_chooser_view_see_all = global::JubilantWaffle.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_activitychooserview_choose_application = global::JubilantWaffle.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_capital_off = global::JubilantWaffle.Droid.Resource.String.abc_capital_off;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_capital_on = global::JubilantWaffle.Droid.Resource.String.abc_capital_on;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_body_1_material = global::JubilantWaffle.Droid.Resource.String.abc_font_family_body_1_material;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_body_2_material = global::JubilantWaffle.Droid.Resource.String.abc_font_family_body_2_material;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_button_material = global::JubilantWaffle.Droid.Resource.String.abc_font_family_button_material;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_caption_material = global::JubilantWaffle.Droid.Resource.String.abc_font_family_caption_material;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_display_1_material = global::JubilantWaffle.Droid.Resource.String.abc_font_family_display_1_material;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_display_2_material = global::JubilantWaffle.Droid.Resource.String.abc_font_family_display_2_material;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_display_3_material = global::JubilantWaffle.Droid.Resource.String.abc_font_family_display_3_material;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_display_4_material = global::JubilantWaffle.Droid.Resource.String.abc_font_family_display_4_material;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_headline_material = global::JubilantWaffle.Droid.Resource.String.abc_font_family_headline_material;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_menu_material = global::JubilantWaffle.Droid.Resource.String.abc_font_family_menu_material;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_subhead_material = global::JubilantWaffle.Droid.Resource.String.abc_font_family_subhead_material;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_title_material = global::JubilantWaffle.Droid.Resource.String.abc_font_family_title_material;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_menu_alt_shortcut_label = global::JubilantWaffle.Droid.Resource.String.abc_menu_alt_shortcut_label;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_menu_ctrl_shortcut_label = global::JubilantWaffle.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_menu_delete_shortcut_label = global::JubilantWaffle.Droid.Resource.String.abc_menu_delete_shortcut_label;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_menu_enter_shortcut_label = global::JubilantWaffle.Droid.Resource.String.abc_menu_enter_shortcut_label;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_menu_function_shortcut_label = global::JubilantWaffle.Droid.Resource.String.abc_menu_function_shortcut_label;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_menu_meta_shortcut_label = global::JubilantWaffle.Droid.Resource.String.abc_menu_meta_shortcut_label;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_menu_shift_shortcut_label = global::JubilantWaffle.Droid.Resource.String.abc_menu_shift_shortcut_label;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_menu_space_shortcut_label = global::JubilantWaffle.Droid.Resource.String.abc_menu_space_shortcut_label;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_menu_sym_shortcut_label = global::JubilantWaffle.Droid.Resource.String.abc_menu_sym_shortcut_label;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_prepend_shortcut_label = global::JubilantWaffle.Droid.Resource.String.abc_prepend_shortcut_label;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_search_hint = global::JubilantWaffle.Droid.Resource.String.abc_search_hint;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_searchview_description_clear = global::JubilantWaffle.Droid.Resource.String.abc_searchview_description_clear;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_searchview_description_query = global::JubilantWaffle.Droid.Resource.String.abc_searchview_description_query;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_searchview_description_search = global::JubilantWaffle.Droid.Resource.String.abc_searchview_description_search;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_searchview_description_submit = global::JubilantWaffle.Droid.Resource.String.abc_searchview_description_submit;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_searchview_description_voice = global::JubilantWaffle.Droid.Resource.String.abc_searchview_description_voice;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with = global::JubilantWaffle.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with_application = global::JubilantWaffle.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Xamarin.Forms.Platform.Android.Resource.String.abc_toolbar_collapse_description = global::JubilantWaffle.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Xamarin.Forms.Platform.Android.Resource.String.appbar_scrolling_view_behavior = global::JubilantWaffle.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Xamarin.Forms.Platform.Android.Resource.String.bottom_sheet_behavior = global::JubilantWaffle.Droid.Resource.String.bottom_sheet_behavior;
-			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_content_description = global::JubilantWaffle.Droid.Resource.String.character_counter_content_description;
-			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_pattern = global::JubilantWaffle.Droid.Resource.String.character_counter_pattern;
-			global::Xamarin.Forms.Platform.Android.Resource.String.fab_transformation_scrim_behavior = global::JubilantWaffle.Droid.Resource.String.fab_transformation_scrim_behavior;
-			global::Xamarin.Forms.Platform.Android.Resource.String.fab_transformation_sheet_behavior = global::JubilantWaffle.Droid.Resource.String.fab_transformation_sheet_behavior;
-			global::Xamarin.Forms.Platform.Android.Resource.String.hide_bottom_view_on_scroll_behavior = global::JubilantWaffle.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
-			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_chip_close_icon_content_description = global::JubilantWaffle.Droid.Resource.String.mtrl_chip_close_icon_content_description;
-			global::Xamarin.Forms.Platform.Android.Resource.String.password_toggle_content_description = global::JubilantWaffle.Droid.Resource.String.password_toggle_content_description;
-			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_eye = global::JubilantWaffle.Droid.Resource.String.path_password_eye;
-			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_eye_mask_strike_through = global::JubilantWaffle.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_eye_mask_visible = global::JubilantWaffle.Droid.Resource.String.path_password_eye_mask_visible;
-			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_strike_through = global::JubilantWaffle.Droid.Resource.String.path_password_strike_through;
-			global::Xamarin.Forms.Platform.Android.Resource.String.search_menu_title = global::JubilantWaffle.Droid.Resource.String.search_menu_title;
-			global::Xamarin.Forms.Platform.Android.Resource.String.status_bar_notification_info_overflow = global::JubilantWaffle.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat = global::JubilantWaffle.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Dialog = global::JubilantWaffle.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::JubilantWaffle.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Tooltip = global::JubilantWaffle.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::JubilantWaffle.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::JubilantWaffle.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::JubilantWaffle.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_CardView = global::JubilantWaffle.Droid.Resource.Style.Base_CardView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::JubilantWaffle.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::JubilantWaffle.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::JubilantWaffle.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::JubilantWaffle.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::JubilantWaffle.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents = global::JubilantWaffle.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::JubilantWaffle.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::JubilantWaffle.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::JubilantWaffle.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::JubilantWaffle.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V22_Theme_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V23_Theme_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V26_Theme_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::JubilantWaffle.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V28_Theme_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Base_V28_Theme_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V28_Theme_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::JubilantWaffle.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::JubilantWaffle.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::JubilantWaffle.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::JubilantWaffle.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_Design_TabLayout = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_Chip = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::JubilantWaffle.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView = global::JubilantWaffle.Droid.Resource.Style.CardView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::JubilantWaffle.Droid.Resource.Style.CardView_Dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::JubilantWaffle.Droid.Resource.Style.CardView_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Platform_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_MaterialComponents = global::JubilantWaffle.Droid.Resource.Style.Platform_MaterialComponents;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_MaterialComponents_Dialog = global::JubilantWaffle.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_MaterialComponents_Light = global::JubilantWaffle.Droid.Resource.Style.Platform_MaterialComponents_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::JubilantWaffle.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::JubilantWaffle.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_V21_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_V21_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_V25_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_V25_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::JubilantWaffle.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::JubilantWaffle.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::JubilantWaffle.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::JubilantWaffle.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Button = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Large = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Small = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Title = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Counter = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Error = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_HelperText = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Design_HelperText;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Hint = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Tab = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Button = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Caption = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Chip = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Overline = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Tab = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::JubilantWaffle.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Dialog = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::JubilantWaffle.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design = global::JubilantWaffle.Droid.Resource.Style.Theme_Design;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::JubilantWaffle.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design_Light = global::JubilantWaffle.Droid.Resource.Style.Theme_Design_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::JubilantWaffle.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::JubilantWaffle.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design_NoActionBar = global::JubilantWaffle.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Bridge = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_CompactMenu = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::JubilantWaffle.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::JubilantWaffle.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionMode = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_Small = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_EditText = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ImageButton = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListView = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_SearchView = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_SeekBar = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::JubilantWaffle.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::JubilantWaffle.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Compat_NotificationActionText = global::JubilantWaffle.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_AppBarLayout = global::JubilantWaffle.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_BottomNavigationView = global::JubilantWaffle.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::JubilantWaffle.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::JubilantWaffle.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_FloatingActionButton = global::JubilantWaffle.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_NavigationView = global::JubilantWaffle.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::JubilantWaffle.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_Snackbar = global::JubilantWaffle.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TabLayout = global::JubilantWaffle.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TextInputLayout = global::JubilantWaffle.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Button;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_Icon = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_CardView = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_CardView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Chip_Action = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ChipGroup = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_NavigationView = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Snackbar = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TabLayout = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Toolbar = global::JubilantWaffle.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Support_CoordinatorLayout = global::JubilantWaffle.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewStyle = global::JubilantWaffle.Droid.Resource.Style.collectionViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_background = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_backgroundSplit = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_backgroundStacked = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetRight = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetStart = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_displayOptions = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_divider = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_divider;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_elevation = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_height = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_homeLayout = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_icon = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_itemPadding = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_logo = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_logo;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_navigationMode = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_popupTheme = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_progressBarPadding = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_progressBarStyle = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_subtitle = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_title = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_title;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_titleTextStyle = global::JubilantWaffle.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBarLayout = global::JubilantWaffle.Droid.Resource.Styleable.ActionBarLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::JubilantWaffle.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMenuItemView = global::JubilantWaffle.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::JubilantWaffle.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMenuView = global::JubilantWaffle.Droid.Resource.Styleable.ActionMenuView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode = global::JubilantWaffle.Droid.Resource.Styleable.ActionMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode_background = global::JubilantWaffle.Droid.Resource.Styleable.ActionMode_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode_backgroundSplit = global::JubilantWaffle.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode_closeItemLayout = global::JubilantWaffle.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode_height = global::JubilantWaffle.Droid.Resource.Styleable.ActionMode_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::JubilantWaffle.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode_titleTextStyle = global::JubilantWaffle.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActivityChooserView = global::JubilantWaffle.Droid.Resource.Styleable.ActivityChooserView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::JubilantWaffle.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::JubilantWaffle.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog = global::JubilantWaffle.Droid.Resource.Styleable.AlertDialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_android_layout = global::JubilantWaffle.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_buttonIconDimen = global::JubilantWaffle.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::JubilantWaffle.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_listItemLayout = global::JubilantWaffle.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_listLayout = global::JubilantWaffle.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::JubilantWaffle.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_showTitle = global::JubilantWaffle.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::JubilantWaffle.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableCompat = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableItem = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableTransition = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::JubilantWaffle.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_android_background = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_elevation = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_expanded = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayoutStates = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayoutStates_state_liftable = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayoutStates_state_lifted = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::JubilantWaffle.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatImageView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_android_src = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_tint = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_tintMode = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_lineHeight = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorError = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::JubilantWaffle.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar = global::JubilantWaffle.Droid.Resource.Styleable.BottomAppBar;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_backgroundTint = global::JubilantWaffle.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::JubilantWaffle.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabCradleMargin = global::JubilantWaffle.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::JubilantWaffle.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::JubilantWaffle.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_hideOnScroll = global::JubilantWaffle.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView = global::JubilantWaffle.Droid.Resource.Styleable.BottomNavigationView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_elevation = global::JubilantWaffle.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::JubilantWaffle.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::JubilantWaffle.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemIconSize = global::JubilantWaffle.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::JubilantWaffle.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::JubilantWaffle.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::JubilantWaffle.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::JubilantWaffle.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::JubilantWaffle.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_menu = global::JubilantWaffle.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::JubilantWaffle.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::JubilantWaffle.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::JubilantWaffle.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::JubilantWaffle.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::JubilantWaffle.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ButtonBarLayout = global::JubilantWaffle.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::JubilantWaffle.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView = global::JubilantWaffle.Droid.Resource.Styleable.CardView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_android_minHeight = global::JubilantWaffle.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_android_minWidth = global::JubilantWaffle.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_cardBackgroundColor = global::JubilantWaffle.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_cardCornerRadius = global::JubilantWaffle.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_cardElevation = global::JubilantWaffle.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_cardMaxElevation = global::JubilantWaffle.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::JubilantWaffle.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::JubilantWaffle.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_contentPadding = global::JubilantWaffle.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_contentPaddingBottom = global::JubilantWaffle.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_contentPaddingLeft = global::JubilantWaffle.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_contentPaddingRight = global::JubilantWaffle.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_contentPaddingTop = global::JubilantWaffle.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip = global::JubilantWaffle.Droid.Resource.Styleable.Chip;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_checkable = global::JubilantWaffle.Droid.Resource.Styleable.Chip_android_checkable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_ellipsize = global::JubilantWaffle.Droid.Resource.Styleable.Chip_android_ellipsize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_maxWidth = global::JubilantWaffle.Droid.Resource.Styleable.Chip_android_maxWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_text = global::JubilantWaffle.Droid.Resource.Styleable.Chip_android_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_textAppearance = global::JubilantWaffle.Droid.Resource.Styleable.Chip_android_textAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIcon = global::JubilantWaffle.Droid.Resource.Styleable.Chip_checkedIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIconEnabled = global::JubilantWaffle.Droid.Resource.Styleable.Chip_checkedIconEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIconVisible = global::JubilantWaffle.Droid.Resource.Styleable.Chip_checkedIconVisible;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipBackgroundColor = global::JubilantWaffle.Droid.Resource.Styleable.Chip_chipBackgroundColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipCornerRadius = global::JubilantWaffle.Droid.Resource.Styleable.Chip_chipCornerRadius;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipEndPadding = global::JubilantWaffle.Droid.Resource.Styleable.Chip_chipEndPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipIcon = global::JubilantWaffle.Droid.Resource.Styleable.Chip_chipIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipIconEnabled = global::JubilantWaffle.Droid.Resource.Styleable.Chip_chipIconEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipIconSize = global::JubilantWaffle.Droid.Resource.Styleable.Chip_chipIconSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipIconTint = global::JubilantWaffle.Droid.Resource.Styleable.Chip_chipIconTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipIconVisible = global::JubilantWaffle.Droid.Resource.Styleable.Chip_chipIconVisible;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipMinHeight = global::JubilantWaffle.Droid.Resource.Styleable.Chip_chipMinHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipStartPadding = global::JubilantWaffle.Droid.Resource.Styleable.Chip_chipStartPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipStrokeColor = global::JubilantWaffle.Droid.Resource.Styleable.Chip_chipStrokeColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipStrokeWidth = global::JubilantWaffle.Droid.Resource.Styleable.Chip_chipStrokeWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIcon = global::JubilantWaffle.Droid.Resource.Styleable.Chip_closeIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconEnabled = global::JubilantWaffle.Droid.Resource.Styleable.Chip_closeIconEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconEndPadding = global::JubilantWaffle.Droid.Resource.Styleable.Chip_closeIconEndPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconSize = global::JubilantWaffle.Droid.Resource.Styleable.Chip_closeIconSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconStartPadding = global::JubilantWaffle.Droid.Resource.Styleable.Chip_closeIconStartPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconTint = global::JubilantWaffle.Droid.Resource.Styleable.Chip_closeIconTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconVisible = global::JubilantWaffle.Droid.Resource.Styleable.Chip_closeIconVisible;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_hideMotionSpec = global::JubilantWaffle.Droid.Resource.Styleable.Chip_hideMotionSpec;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_iconEndPadding = global::JubilantWaffle.Droid.Resource.Styleable.Chip_iconEndPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_iconStartPadding = global::JubilantWaffle.Droid.Resource.Styleable.Chip_iconStartPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_rippleColor = global::JubilantWaffle.Droid.Resource.Styleable.Chip_rippleColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_showMotionSpec = global::JubilantWaffle.Droid.Resource.Styleable.Chip_showMotionSpec;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_textEndPadding = global::JubilantWaffle.Droid.Resource.Styleable.Chip_textEndPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_textStartPadding = global::JubilantWaffle.Droid.Resource.Styleable.Chip_textStartPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup = global::JubilantWaffle.Droid.Resource.Styleable.ChipGroup;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_checkedChip = global::JubilantWaffle.Droid.Resource.Styleable.ChipGroup_checkedChip;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_chipSpacing = global::JubilantWaffle.Droid.Resource.Styleable.ChipGroup_chipSpacing;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::JubilantWaffle.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_chipSpacingVertical = global::JubilantWaffle.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_singleLine = global::JubilantWaffle.Droid.Resource.Styleable.ChipGroup_singleLine;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_singleSelection = global::JubilantWaffle.Droid.Resource.Styleable.ChipGroup_singleSelection;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::JubilantWaffle.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem = global::JubilantWaffle.Droid.Resource.Styleable.ColorStateListItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_alpha = global::JubilantWaffle.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::JubilantWaffle.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_color = global::JubilantWaffle.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton = global::JubilantWaffle.Droid.Resource.Styleable.CompoundButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_android_button = global::JubilantWaffle.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonTint = global::JubilantWaffle.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::JubilantWaffle.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout = global::JubilantWaffle.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_keylines = global::JubilantWaffle.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::JubilantWaffle.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout = global::JubilantWaffle.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::JubilantWaffle.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::JubilantWaffle.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::JubilantWaffle.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::JubilantWaffle.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::JubilantWaffle.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::JubilantWaffle.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::JubilantWaffle.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DesignTheme = global::JubilantWaffle.Droid.Resource.Styleable.DesignTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::JubilantWaffle.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::JubilantWaffle.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle = global::JubilantWaffle.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::JubilantWaffle.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::JubilantWaffle.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::JubilantWaffle.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_color = global::JubilantWaffle.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::JubilantWaffle.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::JubilantWaffle.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::JubilantWaffle.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::JubilantWaffle.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_elevation = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_fabCustomSize = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_fabSize = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_maxImageSize = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_showMotionSpec = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::JubilantWaffle.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FlowLayout = global::JubilantWaffle.Droid.Resource.Styleable.FlowLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FlowLayout_itemSpacing = global::JubilantWaffle.Droid.Resource.Styleable.FlowLayout_itemSpacing;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FlowLayout_lineSpacing = global::JubilantWaffle.Droid.Resource.Styleable.FlowLayout_lineSpacing;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily = global::JubilantWaffle.Droid.Resource.Styleable.FontFamily;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::JubilantWaffle.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::JubilantWaffle.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::JubilantWaffle.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::JubilantWaffle.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::JubilantWaffle.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::JubilantWaffle.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont = global::JubilantWaffle.Droid.Resource.Styleable.FontFamilyFont;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_android_font = global::JubilantWaffle.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::JubilantWaffle.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::JubilantWaffle.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::JubilantWaffle.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::JubilantWaffle.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_font = global::JubilantWaffle.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::JubilantWaffle.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::JubilantWaffle.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::JubilantWaffle.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_ttcIndex = global::JubilantWaffle.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout = global::JubilantWaffle.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::JubilantWaffle.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::JubilantWaffle.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::JubilantWaffle.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor = global::JubilantWaffle.Droid.Resource.Styleable.GradientColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_centerColor = global::JubilantWaffle.Droid.Resource.Styleable.GradientColor_android_centerColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_centerX = global::JubilantWaffle.Droid.Resource.Styleable.GradientColor_android_centerX;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_centerY = global::JubilantWaffle.Droid.Resource.Styleable.GradientColor_android_centerY;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_endColor = global::JubilantWaffle.Droid.Resource.Styleable.GradientColor_android_endColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_endX = global::JubilantWaffle.Droid.Resource.Styleable.GradientColor_android_endX;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_endY = global::JubilantWaffle.Droid.Resource.Styleable.GradientColor_android_endY;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_gradientRadius = global::JubilantWaffle.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_startColor = global::JubilantWaffle.Droid.Resource.Styleable.GradientColor_android_startColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_startX = global::JubilantWaffle.Droid.Resource.Styleable.GradientColor_android_startX;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_startY = global::JubilantWaffle.Droid.Resource.Styleable.GradientColor_android_startY;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_tileMode = global::JubilantWaffle.Droid.Resource.Styleable.GradientColor_android_tileMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_type = global::JubilantWaffle.Droid.Resource.Styleable.GradientColor_android_type;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColorItem = global::JubilantWaffle.Droid.Resource.Styleable.GradientColorItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColorItem_android_color = global::JubilantWaffle.Droid.Resource.Styleable.GradientColorItem_android_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColorItem_android_offset = global::JubilantWaffle.Droid.Resource.Styleable.GradientColorItem_android_offset;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_divider = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::JubilantWaffle.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow = global::JubilantWaffle.Droid.Resource.Styleable.ListPopupWindow;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::JubilantWaffle.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::JubilantWaffle.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetBottom = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetLeft = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetRight = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_android_insetRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetTop = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_android_insetTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_backgroundTint = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_backgroundTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_backgroundTintMode = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_cornerRadius = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_cornerRadius;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_icon = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_iconGravity = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_iconGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_iconPadding = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_iconPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_iconSize = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_iconSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_iconTint = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_iconTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_iconTintMode = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_iconTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_rippleColor = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_rippleColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_strokeColor = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_strokeColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_strokeWidth = global::JubilantWaffle.Droid.Resource.Styleable.MaterialButton_strokeWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView = global::JubilantWaffle.Droid.Resource.Styleable.MaterialCardView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_strokeColor = global::JubilantWaffle.Droid.Resource.Styleable.MaterialCardView_strokeColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_strokeWidth = global::JubilantWaffle.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::JubilantWaffle.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup = global::JubilantWaffle.Droid.Resource.Styleable.MenuGroup;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::JubilantWaffle.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_enabled = global::JubilantWaffle.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_id = global::JubilantWaffle.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::JubilantWaffle.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::JubilantWaffle.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_visible = global::JubilantWaffle.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_actionLayout = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_actionProviderClass = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_actionViewClass = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_checkable = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_checked = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_enabled = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_icon = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_id = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_menuCategory = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_onClick = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_title = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_visible = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_contentDescription = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_iconTint = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_iconTintMode = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_numericModifiers = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_showAsAction = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_tooltipText = global::JubilantWaffle.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView = global::JubilantWaffle.Droid.Resource.Styleable.MenuView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_headerBackground = global::JubilantWaffle.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::JubilantWaffle.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_itemBackground = global::JubilantWaffle.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::JubilantWaffle.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_verticalDivider = global::JubilantWaffle.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::JubilantWaffle.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::JubilantWaffle.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_subMenuArrow = global::JubilantWaffle.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView = global::JubilantWaffle.Droid.Resource.Styleable.NavigationView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_android_background = global::JubilantWaffle.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::JubilantWaffle.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_android_maxWidth = global::JubilantWaffle.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_elevation = global::JubilantWaffle.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_headerLayout = global::JubilantWaffle.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemBackground = global::JubilantWaffle.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemHorizontalPadding = global::JubilantWaffle.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemIconPadding = global::JubilantWaffle.Droid.Resource.Styleable.NavigationView_itemIconPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemIconTint = global::JubilantWaffle.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemTextColor = global::JubilantWaffle.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_menu = global::JubilantWaffle.Droid.Resource.Styleable.NavigationView_menu;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow = global::JubilantWaffle.Droid.Resource.Styleable.PopupWindow;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::JubilantWaffle.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::JubilantWaffle.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::JubilantWaffle.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindowBackgroundState = global::JubilantWaffle.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::JubilantWaffle.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView = global::JubilantWaffle.Droid.Resource.Styleable.RecycleListView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::JubilantWaffle.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::JubilantWaffle.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView = global::JubilantWaffle.Droid.Resource.Styleable.RecyclerView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::JubilantWaffle.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_android_orientation = global::JubilantWaffle.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::JubilantWaffle.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::JubilantWaffle.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::JubilantWaffle.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::JubilantWaffle.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::JubilantWaffle.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_layoutManager = global::JubilantWaffle.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_reverseLayout = global::JubilantWaffle.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_spanCount = global::JubilantWaffle.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::JubilantWaffle.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::JubilantWaffle.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::JubilantWaffle.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::JubilantWaffle.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::JubilantWaffle.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView = global::JubilantWaffle.Droid.Resource.Styleable.SearchView;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_focusable = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_imeOptions = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_inputType = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_maxWidth = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_closeIcon = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_commitIcon = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_defaultQueryHint = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_goIcon = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_layout = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_queryBackground = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_queryHint = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_searchHintIcon = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_searchIcon = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_submitBackground = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_voiceIcon = global::JubilantWaffle.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar = global::JubilantWaffle.Droid.Resource.Styleable.Snackbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar_snackbarButtonStyle = global::JubilantWaffle.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar_snackbarStyle = global::JubilantWaffle.Droid.Resource.Styleable.Snackbar_snackbarStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout = global::JubilantWaffle.Droid.Resource.Styleable.SnackbarLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::JubilantWaffle.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_elevation = global::JubilantWaffle.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::JubilantWaffle.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner = global::JubilantWaffle.Droid.Resource.Styleable.Spinner;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::JubilantWaffle.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_entries = global::JubilantWaffle.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_popupBackground = global::JubilantWaffle.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_prompt = global::JubilantWaffle.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_popupTheme = global::JubilantWaffle.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable = global::JubilantWaffle.Droid.Resource.Styleable.StateListDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable_android_constantSize = global::JubilantWaffle.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable_android_dither = global::JubilantWaffle.Droid.Resource.Styleable.StateListDrawable_android_dither;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::JubilantWaffle.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::JubilantWaffle.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable_android_variablePadding = global::JubilantWaffle.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable_android_visible = global::JubilantWaffle.Droid.Resource.Styleable.StateListDrawable_android_visible;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawableItem = global::JubilantWaffle.Droid.Resource.Styleable.StateListDrawableItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawableItem_android_drawable = global::JubilantWaffle.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_android_textOff = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_android_textOn = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_android_thumb = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_showText = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_splitTrack = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_switchPadding = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_thumbTint = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_track = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_trackTint = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::JubilantWaffle.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem = global::JubilantWaffle.Droid.Resource.Styleable.TabItem;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem_android_icon = global::JubilantWaffle.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem_android_layout = global::JubilantWaffle.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem_android_text = global::JubilantWaffle.Droid.Resource.Styleable.TabItem_android_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabBackground = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabContentStart = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabGravity = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabIconTint = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabIconTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabIconTintMode = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabIndicator = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabIndicator;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorGravity = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabInlineLabel = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabMinWidth = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabMode = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPadding = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabRippleColor = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabRippleColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabTextColor = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabUnboundedRipple = global::JubilantWaffle.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColor = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textSize = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textStyle = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_typeface = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_fontFamily = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_textAllCaps = global::JubilantWaffle.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_hint = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeColor = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_helperText = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_helperText;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_helperTextEnabled = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::JubilantWaffle.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement = global::JubilantWaffle.Droid.Resource.Styleable.ThemeEnforcement;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::JubilantWaffle.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::JubilantWaffle.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_android_gravity = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_android_minHeight = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_buttonGravity = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_collapseIcon = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetRight = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetStart = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_logo = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_logo;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_logoDescription = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_navigationIcon = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_popupTheme = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_subtitle = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_title = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_title;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMargin = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginStart = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginTop = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMargins = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleTextColor = global::JubilantWaffle.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View = global::JubilantWaffle.Droid.Resource.Styleable.View;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_android_focusable = global::JubilantWaffle.Droid.Resource.Styleable.View_android_focusable;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_android_theme = global::JubilantWaffle.Droid.Resource.Styleable.View_android_theme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingEnd = global::JubilantWaffle.Droid.Resource.Styleable.View_paddingEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingStart = global::JubilantWaffle.Droid.Resource.Styleable.View_paddingStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_theme = global::JubilantWaffle.Droid.Resource.Styleable.View_theme;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper = global::JubilantWaffle.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::JubilantWaffle.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::JubilantWaffle.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::JubilantWaffle.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat = global::JubilantWaffle.Droid.Resource.Styleable.ViewStubCompat;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_id = global::JubilantWaffle.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::JubilantWaffle.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_layout = global::JubilantWaffle.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
 		{
 			
-			// aapt resource value: 0x7F010004
-			public const int abc_fade_in = 2130771972;
-			
-			// aapt resource value: 0x7F010005
-			public const int abc_fade_out = 2130771973;
-			
-			// aapt resource value: 0x7F010006
-			public const int abc_grow_fade_in_from_bottom = 2130771974;
-			
-			// aapt resource value: 0x7F010007
-			public const int abc_popup_enter = 2130771975;
-			
-			// aapt resource value: 0x7F010008
-			public const int abc_popup_exit = 2130771976;
-			
-			// aapt resource value: 0x7F010009
-			public const int abc_shrink_fade_out_from_bottom = 2130771977;
-			
-			// aapt resource value: 0x7F01000A
-			public const int abc_slide_in_bottom = 2130771978;
-			
-			// aapt resource value: 0x7F01000B
-			public const int abc_slide_in_top = 2130771979;
-			
-			// aapt resource value: 0x7F01000C
-			public const int abc_slide_out_bottom = 2130771980;
-			
-			// aapt resource value: 0x7F01000D
-			public const int abc_slide_out_top = 2130771981;
-			
-			// aapt resource value: 0x7F01000E
-			public const int abc_tooltip_enter = 2130771982;
-			
-			// aapt resource value: 0x7F01000F
-			public const int abc_tooltip_exit = 2130771983;
-			
-			// aapt resource value: 0x7F010010
-			public const int design_bottom_sheet_slide_in = 2130771984;
-			
-			// aapt resource value: 0x7F010011
-			public const int design_bottom_sheet_slide_out = 2130771985;
-			
-			// aapt resource value: 0x7F010012
-			public const int design_snackbar_in = 2130771986;
-			
-			// aapt resource value: 0x7F010013
-			public const int design_snackbar_out = 2130771987;
-			
 			// aapt resource value: 0x7F010000
-			public const int EnterFromLeft = 2130771968;
+			public const int abc_fade_in = 2130771968;
 			
 			// aapt resource value: 0x7F010001
-			public const int EnterFromRight = 2130771969;
+			public const int abc_fade_out = 2130771969;
 			
 			// aapt resource value: 0x7F010002
-			public const int ExitToLeft = 2130771970;
+			public const int abc_grow_fade_in_from_bottom = 2130771970;
 			
 			// aapt resource value: 0x7F010003
-			public const int ExitToRight = 2130771971;
+			public const int abc_popup_enter = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int abc_popup_exit = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int abc_shrink_fade_out_from_bottom = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int abc_slide_in_bottom = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int abc_slide_in_top = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int abc_slide_out_bottom = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int abc_slide_out_top = 2130771977;
+			
+			// aapt resource value: 0x7F01000A
+			public const int abc_tooltip_enter = 2130771978;
+			
+			// aapt resource value: 0x7F01000B
+			public const int abc_tooltip_exit = 2130771979;
+			
+			// aapt resource value: 0x7F01000C
+			public const int design_bottom_sheet_slide_in = 2130771980;
+			
+			// aapt resource value: 0x7F01000D
+			public const int design_bottom_sheet_slide_out = 2130771981;
+			
+			// aapt resource value: 0x7F01000E
+			public const int design_snackbar_in = 2130771982;
+			
+			// aapt resource value: 0x7F01000F
+			public const int design_snackbar_out = 2130771983;
 			
 			static Animation()
 			{
@@ -5912,562 +3338,529 @@ namespace JubilantWaffle.Droid
 			public const int bottom = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int bottomtab_navarea = 2131230758;
-			
-			// aapt resource value: 0x7F080027
-			public const int bottomtab_tabbar = 2131230759;
-			
-			// aapt resource value: 0x7F080028
-			public const int browser_actions_header_text = 2131230760;
-			
-			// aapt resource value: 0x7F08002B
-			public const int browser_actions_menu_items = 2131230763;
+			public const int browser_actions_header_text = 2131230758;
 			
 			// aapt resource value: 0x7F080029
-			public const int browser_actions_menu_item_icon = 2131230761;
+			public const int browser_actions_menu_items = 2131230761;
+			
+			// aapt resource value: 0x7F080027
+			public const int browser_actions_menu_item_icon = 2131230759;
+			
+			// aapt resource value: 0x7F080028
+			public const int browser_actions_menu_item_text = 2131230760;
 			
 			// aapt resource value: 0x7F08002A
-			public const int browser_actions_menu_item_text = 2131230762;
+			public const int browser_actions_menu_view = 2131230762;
+			
+			// aapt resource value: 0x7F08002B
+			public const int button1 = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int browser_actions_menu_view = 2131230764;
+			public const int button2 = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int button1 = 2131230765;
+			public const int button3 = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int button2 = 2131230766;
+			public const int buttonPanel = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int button3 = 2131230767;
+			public const int cancel_action = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int buttonPanel = 2131230768;
+			public const int center = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int cancel_action = 2131230769;
+			public const int center_horizontal = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int center = 2131230770;
+			public const int center_vertical = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int center_horizontal = 2131230771;
+			public const int checkbox = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int center_vertical = 2131230772;
+			public const int chronometer = 2131230772;
 			
 			// aapt resource value: 0x7F080035
-			public const int checkbox = 2131230773;
+			public const int clip_horizontal = 2131230773;
 			
 			// aapt resource value: 0x7F080036
-			public const int chronometer = 2131230774;
+			public const int clip_vertical = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int clip_horizontal = 2131230775;
+			public const int collapseActionView = 2131230775;
 			
 			// aapt resource value: 0x7F080038
-			public const int clip_vertical = 2131230776;
+			public const int container = 2131230776;
 			
 			// aapt resource value: 0x7F080039
-			public const int collapseActionView = 2131230777;
+			public const int content = 2131230777;
 			
 			// aapt resource value: 0x7F08003A
-			public const int collectionViewStyle = 2131230778;
+			public const int contentPanel = 2131230778;
 			
 			// aapt resource value: 0x7F08003B
-			public const int container = 2131230779;
-			
-			// aapt resource value: 0x7F08003C
-			public const int content = 2131230780;
-			
-			// aapt resource value: 0x7F08003D
-			public const int contentPanel = 2131230781;
-			
-			// aapt resource value: 0x7F08003E
-			public const int coordinator = 2131230782;
+			public const int coordinator = 2131230779;
 			
 			// aapt resource value: 0x7F080002
 			public const int CTRL = 2131230722;
 			
+			// aapt resource value: 0x7F08003C
+			public const int custom = 2131230780;
+			
+			// aapt resource value: 0x7F08003D
+			public const int customPanel = 2131230781;
+			
+			// aapt resource value: 0x7F08003E
+			public const int decor_content_parent = 2131230782;
+			
 			// aapt resource value: 0x7F08003F
-			public const int custom = 2131230783;
+			public const int default_activity_button = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int customPanel = 2131230784;
+			public const int design_bottom_sheet = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int decor_content_parent = 2131230785;
+			public const int design_menu_item_action_area = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int default_activity_button = 2131230786;
+			public const int design_menu_item_action_area_stub = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int design_bottom_sheet = 2131230787;
+			public const int design_menu_item_text = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int design_menu_item_action_area = 2131230788;
+			public const int design_navigation_view = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int design_menu_item_action_area_stub = 2131230789;
+			public const int disableHome = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int design_menu_item_text = 2131230790;
+			public const int edit_query = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int design_navigation_view = 2131230791;
+			public const int end = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int disableHome = 2131230792;
+			public const int end_padder = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int edit_query = 2131230793;
+			public const int enterAlways = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int end = 2131230794;
+			public const int enterAlwaysCollapsed = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int end_padder = 2131230795;
-			
-			// aapt resource value: 0x7F08004C
-			public const int enterAlways = 2131230796;
+			public const int exitUntilCollapsed = 2131230795;
 			
 			// aapt resource value: 0x7F08004D
-			public const int enterAlwaysCollapsed = 2131230797;
+			public const int expanded_menu = 2131230797;
+			
+			// aapt resource value: 0x7F08004C
+			public const int expand_activities_button = 2131230796;
 			
 			// aapt resource value: 0x7F08004E
-			public const int exitUntilCollapsed = 2131230798;
-			
-			// aapt resource value: 0x7F080050
-			public const int expanded_menu = 2131230800;
-			
-			// aapt resource value: 0x7F08004F
-			public const int expand_activities_button = 2131230799;
+			public const int fill = 2131230798;
 			
 			// aapt resource value: 0x7F080051
-			public const int fill = 2131230801;
+			public const int filled = 2131230801;
 			
-			// aapt resource value: 0x7F080054
-			public const int filled = 2131230804;
+			// aapt resource value: 0x7F08004F
+			public const int fill_horizontal = 2131230799;
+			
+			// aapt resource value: 0x7F080050
+			public const int fill_vertical = 2131230800;
 			
 			// aapt resource value: 0x7F080052
-			public const int fill_horizontal = 2131230802;
+			public const int @fixed = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int fill_vertical = 2131230803;
-			
-			// aapt resource value: 0x7F080055
-			public const int @fixed = 2131230805;
-			
-			// aapt resource value: 0x7F080056
-			public const int flyoutcontent_appbar = 2131230806;
-			
-			// aapt resource value: 0x7F080057
-			public const int flyoutcontent_recycler = 2131230807;
-			
-			// aapt resource value: 0x7F080058
-			public const int forever = 2131230808;
+			public const int forever = 2131230803;
 			
 			// aapt resource value: 0x7F080003
 			public const int FUNCTION = 2131230723;
 			
+			// aapt resource value: 0x7F080054
+			public const int ghost_view = 2131230804;
+			
+			// aapt resource value: 0x7F080055
+			public const int group_divider = 2131230805;
+			
+			// aapt resource value: 0x7F080056
+			public const int home = 2131230806;
+			
+			// aapt resource value: 0x7F080057
+			public const int homeAsUp = 2131230807;
+			
+			// aapt resource value: 0x7F080058
+			public const int icon = 2131230808;
+			
 			// aapt resource value: 0x7F080059
-			public const int ghost_view = 2131230809;
+			public const int icon1 = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int group_divider = 2131230810;
+			public const int icon_group = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int home = 2131230811;
+			public const int ifRoom = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int homeAsUp = 2131230812;
+			public const int image = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int icon = 2131230813;
+			public const int info = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int icon1 = 2131230814;
+			public const int italic = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int icon_group = 2131230815;
+			public const int item_touch_helper_previous_elevation = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int ifRoom = 2131230816;
+			public const int labeled = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int image = 2131230817;
+			public const int largeLabel = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int info = 2131230818;
+			public const int left = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int italic = 2131230819;
+			public const int line1 = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int item_touch_helper_previous_elevation = 2131230820;
+			public const int line3 = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int labeled = 2131230821;
+			public const int listMode = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int largeLabel = 2131230822;
+			public const int list_item = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int left = 2131230823;
+			public const int mask = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int line1 = 2131230824;
+			public const int masked = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int line3 = 2131230825;
+			public const int media_actions = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int listMode = 2131230826;
-			
-			// aapt resource value: 0x7F08006B
-			public const int list_item = 2131230827;
-			
-			// aapt resource value: 0x7F08006C
-			public const int main_appbar = 2131230828;
-			
-			// aapt resource value: 0x7F08006D
-			public const int main_tablayout = 2131230829;
-			
-			// aapt resource value: 0x7F08006E
-			public const int main_toolbar = 2131230830;
-			
-			// aapt resource value: 0x7F08006F
-			public const int main_viewpager = 2131230831;
-			
-			// aapt resource value: 0x7F080070
-			public const int mask = 2131230832;
-			
-			// aapt resource value: 0x7F080071
-			public const int masked = 2131230833;
-			
-			// aapt resource value: 0x7F080072
-			public const int media_actions = 2131230834;
-			
-			// aapt resource value: 0x7F080073
-			public const int message = 2131230835;
+			public const int message = 2131230826;
 			
 			// aapt resource value: 0x7F080004
 			public const int META = 2131230724;
 			
+			// aapt resource value: 0x7F08006B
+			public const int middle = 2131230827;
+			
+			// aapt resource value: 0x7F08006C
+			public const int mini = 2131230828;
+			
+			// aapt resource value: 0x7F08006D
+			public const int mtrl_child_content_container = 2131230829;
+			
+			// aapt resource value: 0x7F08006E
+			public const int mtrl_internal_children_alpha_tag = 2131230830;
+			
+			// aapt resource value: 0x7F08006F
+			public const int multiply = 2131230831;
+			
+			// aapt resource value: 0x7F080070
+			public const int navigation_header_container = 2131230832;
+			
+			// aapt resource value: 0x7F080071
+			public const int never = 2131230833;
+			
+			// aapt resource value: 0x7F080072
+			public const int none = 2131230834;
+			
+			// aapt resource value: 0x7F080073
+			public const int normal = 2131230835;
+			
 			// aapt resource value: 0x7F080074
-			public const int middle = 2131230836;
+			public const int notification_background = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int mini = 2131230837;
+			public const int notification_main_column = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int mtrl_child_content_container = 2131230838;
+			public const int notification_main_column_container = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int mtrl_internal_children_alpha_tag = 2131230839;
+			public const int outline = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int multiply = 2131230840;
+			public const int parallax = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int navigation_header_container = 2131230841;
+			public const int parentPanel = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int never = 2131230842;
+			public const int parent_matrix = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int none = 2131230843;
+			public const int pin = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int normal = 2131230844;
+			public const int progress = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int notification_background = 2131230845;
+			public const int progress_circular = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int notification_main_column = 2131230846;
+			public const int progress_horizontal = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int notification_main_column_container = 2131230847;
+			public const int radio = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int outline = 2131230848;
+			public const int right = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int parallax = 2131230849;
+			public const int right_icon = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int parentPanel = 2131230850;
+			public const int right_side = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int parent_matrix = 2131230851;
+			public const int save_image_matrix = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int pin = 2131230852;
+			public const int save_non_transition_alpha = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int progress = 2131230853;
+			public const int save_scale_type = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int progress_circular = 2131230854;
+			public const int screen = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int progress_horizontal = 2131230855;
-			
-			// aapt resource value: 0x7F080088
-			public const int radio = 2131230856;
-			
-			// aapt resource value: 0x7F080089
-			public const int right = 2131230857;
-			
-			// aapt resource value: 0x7F08008A
-			public const int right_icon = 2131230858;
+			public const int scroll = 2131230855;
 			
 			// aapt resource value: 0x7F08008B
-			public const int right_side = 2131230859;
+			public const int scrollable = 2131230859;
+			
+			// aapt resource value: 0x7F080088
+			public const int scrollIndicatorDown = 2131230856;
+			
+			// aapt resource value: 0x7F080089
+			public const int scrollIndicatorUp = 2131230857;
+			
+			// aapt resource value: 0x7F08008A
+			public const int scrollView = 2131230858;
 			
 			// aapt resource value: 0x7F08008C
-			public const int save_image_matrix = 2131230860;
+			public const int search_badge = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int save_non_transition_alpha = 2131230861;
+			public const int search_bar = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int save_scale_type = 2131230862;
+			public const int search_button = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int screen = 2131230863;
+			public const int search_close_btn = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int scroll = 2131230864;
-			
-			// aapt resource value: 0x7F080094
-			public const int scrollable = 2131230868;
+			public const int search_edit_frame = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int scrollIndicatorDown = 2131230865;
+			public const int search_go_btn = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int scrollIndicatorUp = 2131230866;
+			public const int search_mag_icon = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int scrollView = 2131230867;
+			public const int search_plate = 2131230867;
+			
+			// aapt resource value: 0x7F080094
+			public const int search_src_text = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int search_badge = 2131230869;
+			public const int search_voice_btn = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int search_bar = 2131230870;
-			
-			// aapt resource value: 0x7F080097
-			public const int search_button = 2131230871;
+			public const int secondaryProgress = 2131230870;
 			
 			// aapt resource value: 0x7F080098
-			public const int search_close_btn = 2131230872;
+			public const int selected = 2131230872;
 			
-			// aapt resource value: 0x7F080099
-			public const int search_edit_frame = 2131230873;
-			
-			// aapt resource value: 0x7F08009A
-			public const int search_go_btn = 2131230874;
-			
-			// aapt resource value: 0x7F08009B
-			public const int search_mag_icon = 2131230875;
-			
-			// aapt resource value: 0x7F08009C
-			public const int search_plate = 2131230876;
-			
-			// aapt resource value: 0x7F08009D
-			public const int search_src_text = 2131230877;
-			
-			// aapt resource value: 0x7F08009E
-			public const int search_voice_btn = 2131230878;
-			
-			// aapt resource value: 0x7F08009F
-			public const int secondaryProgress = 2131230879;
-			
-			// aapt resource value: 0x7F0800A1
-			public const int selected = 2131230881;
-			
-			// aapt resource value: 0x7F0800A0
-			public const int select_dialog_listview = 2131230880;
-			
-			// aapt resource value: 0x7F0800A2
-			public const int shellcontent_appbar = 2131230882;
-			
-			// aapt resource value: 0x7F0800A3
-			public const int shellcontent_toolbar = 2131230883;
+			// aapt resource value: 0x7F080097
+			public const int select_dialog_listview = 2131230871;
 			
 			// aapt resource value: 0x7F080005
 			public const int SHIFT = 2131230725;
 			
+			// aapt resource value: 0x7F080099
+			public const int shortcut = 2131230873;
+			
+			// aapt resource value: 0x7F08009A
+			public const int showCustom = 2131230874;
+			
+			// aapt resource value: 0x7F08009B
+			public const int showHome = 2131230875;
+			
+			// aapt resource value: 0x7F08009C
+			public const int showTitle = 2131230876;
+			
+			// aapt resource value: 0x7F08009D
+			public const int sliding_tabs = 2131230877;
+			
+			// aapt resource value: 0x7F08009E
+			public const int smallLabel = 2131230878;
+			
+			// aapt resource value: 0x7F08009F
+			public const int snackbar_action = 2131230879;
+			
+			// aapt resource value: 0x7F0800A0
+			public const int snackbar_text = 2131230880;
+			
+			// aapt resource value: 0x7F0800A1
+			public const int snap = 2131230881;
+			
+			// aapt resource value: 0x7F0800A2
+			public const int snapMargins = 2131230882;
+			
+			// aapt resource value: 0x7F0800A3
+			public const int spacer = 2131230883;
+			
 			// aapt resource value: 0x7F0800A4
-			public const int shortcut = 2131230884;
+			public const int split_action_bar = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int showCustom = 2131230885;
+			public const int src_atop = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int showHome = 2131230886;
+			public const int src_in = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int showTitle = 2131230887;
+			public const int src_over = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int sliding_tabs = 2131230888;
+			public const int start = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int smallLabel = 2131230889;
+			public const int status_bar_latest_event_content = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int snackbar_action = 2131230890;
+			public const int stretch = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int snackbar_text = 2131230891;
+			public const int submenuarrow = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int snap = 2131230892;
-			
-			// aapt resource value: 0x7F0800AD
-			public const int snapMargins = 2131230893;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int spacer = 2131230894;
-			
-			// aapt resource value: 0x7F0800AF
-			public const int split_action_bar = 2131230895;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int src_atop = 2131230896;
-			
-			// aapt resource value: 0x7F0800B1
-			public const int src_in = 2131230897;
-			
-			// aapt resource value: 0x7F0800B2
-			public const int src_over = 2131230898;
-			
-			// aapt resource value: 0x7F0800B3
-			public const int start = 2131230899;
-			
-			// aapt resource value: 0x7F0800B4
-			public const int status_bar_latest_event_content = 2131230900;
-			
-			// aapt resource value: 0x7F0800B5
-			public const int stretch = 2131230901;
-			
-			// aapt resource value: 0x7F0800B6
-			public const int submenuarrow = 2131230902;
-			
-			// aapt resource value: 0x7F0800B7
-			public const int submit_area = 2131230903;
+			public const int submit_area = 2131230892;
 			
 			// aapt resource value: 0x7F080006
 			public const int SYM = 2131230726;
 			
+			// aapt resource value: 0x7F0800AD
+			public const int tabMode = 2131230893;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int tag_transition_group = 2131230894;
+			
+			// aapt resource value: 0x7F0800AF
+			public const int tag_unhandled_key_event_manager = 2131230895;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int tag_unhandled_key_listeners = 2131230896;
+			
+			// aapt resource value: 0x7F0800B1
+			public const int text = 2131230897;
+			
+			// aapt resource value: 0x7F0800B2
+			public const int text1 = 2131230898;
+			
+			// aapt resource value: 0x7F0800B3
+			public const int text2 = 2131230899;
+			
 			// aapt resource value: 0x7F0800B8
-			public const int tabMode = 2131230904;
+			public const int textinput_counter = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int tag_transition_group = 2131230905;
+			public const int textinput_error = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int tag_unhandled_key_event_manager = 2131230906;
+			public const int textinput_helper_text = 2131230906;
+			
+			// aapt resource value: 0x7F0800B4
+			public const int textSpacerNoButtons = 2131230900;
+			
+			// aapt resource value: 0x7F0800B5
+			public const int textSpacerNoTitle = 2131230901;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int textStart = 2131230902;
+			
+			// aapt resource value: 0x7F0800B7
+			public const int text_input_password_toggle = 2131230903;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int tag_unhandled_key_listeners = 2131230907;
+			public const int time = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int text = 2131230908;
+			public const int title = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int text1 = 2131230909;
+			public const int titleDividerNoCustom = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int text2 = 2131230910;
-			
-			// aapt resource value: 0x7F0800C3
-			public const int textinput_counter = 2131230915;
-			
-			// aapt resource value: 0x7F0800C4
-			public const int textinput_error = 2131230916;
-			
-			// aapt resource value: 0x7F0800C5
-			public const int textinput_helper_text = 2131230917;
+			public const int title_template = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int textSpacerNoButtons = 2131230911;
+			public const int toolbar = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int textSpacerNoTitle = 2131230912;
+			public const int top = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int textStart = 2131230913;
+			public const int topPanel = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int text_input_password_toggle = 2131230914;
+			public const int touch_outside = 2131230914;
+			
+			// aapt resource value: 0x7F0800C3
+			public const int transition_current_scene = 2131230915;
+			
+			// aapt resource value: 0x7F0800C4
+			public const int transition_layout_save = 2131230916;
+			
+			// aapt resource value: 0x7F0800C5
+			public const int transition_position = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int time = 2131230918;
+			public const int transition_scene_layoutid_cache = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int title = 2131230919;
+			public const int transition_transform = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int titleDividerNoCustom = 2131230920;
+			public const int uniform = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int title_template = 2131230921;
+			public const int unlabeled = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int toolbar = 2131230922;
+			public const int up = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int top = 2131230923;
+			public const int useLogo = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int topPanel = 2131230924;
+			public const int view_offset_helper = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int touch_outside = 2131230925;
+			public const int visible = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int transition_current_scene = 2131230926;
+			public const int withText = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int transition_layout_save = 2131230927;
-			
-			// aapt resource value: 0x7F0800D0
-			public const int transition_position = 2131230928;
-			
-			// aapt resource value: 0x7F0800D1
-			public const int transition_scene_layoutid_cache = 2131230929;
-			
-			// aapt resource value: 0x7F0800D2
-			public const int transition_transform = 2131230930;
-			
-			// aapt resource value: 0x7F0800D3
-			public const int uniform = 2131230931;
-			
-			// aapt resource value: 0x7F0800D4
-			public const int unlabeled = 2131230932;
-			
-			// aapt resource value: 0x7F0800D5
-			public const int up = 2131230933;
-			
-			// aapt resource value: 0x7F0800D6
-			public const int useLogo = 2131230934;
-			
-			// aapt resource value: 0x7F0800D7
-			public const int view_offset_helper = 2131230935;
-			
-			// aapt resource value: 0x7F0800D8
-			public const int visible = 2131230936;
-			
-			// aapt resource value: 0x7F0800D9
-			public const int withText = 2131230937;
-			
-			// aapt resource value: 0x7F0800DA
-			public const int wrap_content = 2131230938;
+			public const int wrap_content = 2131230927;
 			
 			static Id()
 			{
@@ -6565,218 +3958,206 @@ namespace JubilantWaffle.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7F0B0006
-			public const int abc_action_bar_title_item = 2131427334;
-			
-			// aapt resource value: 0x7F0B0007
-			public const int abc_action_bar_up_container = 2131427335;
-			
-			// aapt resource value: 0x7F0B0008
-			public const int abc_action_menu_item_layout = 2131427336;
-			
-			// aapt resource value: 0x7F0B0009
-			public const int abc_action_menu_layout = 2131427337;
-			
-			// aapt resource value: 0x7F0B000A
-			public const int abc_action_mode_bar = 2131427338;
-			
-			// aapt resource value: 0x7F0B000B
-			public const int abc_action_mode_close_item_material = 2131427339;
-			
-			// aapt resource value: 0x7F0B000C
-			public const int abc_activity_chooser_view = 2131427340;
-			
-			// aapt resource value: 0x7F0B000D
-			public const int abc_activity_chooser_view_list_item = 2131427341;
-			
-			// aapt resource value: 0x7F0B000E
-			public const int abc_alert_dialog_button_bar_material = 2131427342;
-			
-			// aapt resource value: 0x7F0B000F
-			public const int abc_alert_dialog_material = 2131427343;
-			
-			// aapt resource value: 0x7F0B0010
-			public const int abc_alert_dialog_title_material = 2131427344;
-			
-			// aapt resource value: 0x7F0B0011
-			public const int abc_cascading_menu_item_layout = 2131427345;
-			
-			// aapt resource value: 0x7F0B0012
-			public const int abc_dialog_title_material = 2131427346;
-			
-			// aapt resource value: 0x7F0B0013
-			public const int abc_expanded_menu_layout = 2131427347;
-			
-			// aapt resource value: 0x7F0B0014
-			public const int abc_list_menu_item_checkbox = 2131427348;
-			
-			// aapt resource value: 0x7F0B0015
-			public const int abc_list_menu_item_icon = 2131427349;
-			
-			// aapt resource value: 0x7F0B0016
-			public const int abc_list_menu_item_layout = 2131427350;
-			
-			// aapt resource value: 0x7F0B0017
-			public const int abc_list_menu_item_radio = 2131427351;
-			
-			// aapt resource value: 0x7F0B0018
-			public const int abc_popup_menu_header_item_layout = 2131427352;
-			
-			// aapt resource value: 0x7F0B0019
-			public const int abc_popup_menu_item_layout = 2131427353;
-			
-			// aapt resource value: 0x7F0B001A
-			public const int abc_screen_content_include = 2131427354;
-			
-			// aapt resource value: 0x7F0B001B
-			public const int abc_screen_simple = 2131427355;
-			
-			// aapt resource value: 0x7F0B001C
-			public const int abc_screen_simple_overlay_action_mode = 2131427356;
-			
-			// aapt resource value: 0x7F0B001D
-			public const int abc_screen_toolbar = 2131427357;
-			
-			// aapt resource value: 0x7F0B001E
-			public const int abc_search_dropdown_item_icons_2line = 2131427358;
-			
-			// aapt resource value: 0x7F0B001F
-			public const int abc_search_view = 2131427359;
-			
-			// aapt resource value: 0x7F0B0020
-			public const int abc_select_dialog_material = 2131427360;
-			
-			// aapt resource value: 0x7F0B0021
-			public const int abc_tooltip = 2131427361;
-			
-			// aapt resource value: 0x7F0B0000
-			public const int BottomTabLayout = 2131427328;
-			
-			// aapt resource value: 0x7F0B0022
-			public const int browser_actions_context_menu_page = 2131427362;
-			
-			// aapt resource value: 0x7F0B0023
-			public const int browser_actions_context_menu_row = 2131427363;
-			
-			// aapt resource value: 0x7F0B0024
-			public const int design_bottom_navigation_item = 2131427364;
-			
-			// aapt resource value: 0x7F0B0025
-			public const int design_bottom_sheet_dialog = 2131427365;
-			
-			// aapt resource value: 0x7F0B0026
-			public const int design_layout_snackbar = 2131427366;
-			
-			// aapt resource value: 0x7F0B0027
-			public const int design_layout_snackbar_include = 2131427367;
-			
-			// aapt resource value: 0x7F0B0028
-			public const int design_layout_tab_icon = 2131427368;
-			
-			// aapt resource value: 0x7F0B0029
-			public const int design_layout_tab_text = 2131427369;
-			
-			// aapt resource value: 0x7F0B002A
-			public const int design_menu_item_action_area = 2131427370;
-			
-			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_item = 2131427371;
-			
-			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_item_header = 2131427372;
-			
-			// aapt resource value: 0x7F0B002D
-			public const int design_navigation_item_separator = 2131427373;
-			
-			// aapt resource value: 0x7F0B002E
-			public const int design_navigation_item_subheader = 2131427374;
-			
-			// aapt resource value: 0x7F0B002F
-			public const int design_navigation_menu = 2131427375;
-			
-			// aapt resource value: 0x7F0B0030
-			public const int design_navigation_menu_item = 2131427376;
-			
-			// aapt resource value: 0x7F0B0031
-			public const int design_text_input_password_icon = 2131427377;
-			
-			// aapt resource value: 0x7F0B0001
-			public const int FlyoutContent = 2131427329;
-			
-			// aapt resource value: 0x7F0B0032
-			public const int mtrl_layout_snackbar = 2131427378;
-			
-			// aapt resource value: 0x7F0B0033
-			public const int mtrl_layout_snackbar_include = 2131427379;
-			
-			// aapt resource value: 0x7F0B0034
-			public const int notification_action = 2131427380;
-			
-			// aapt resource value: 0x7F0B0035
-			public const int notification_action_tombstone = 2131427381;
-			
-			// aapt resource value: 0x7F0B0036
-			public const int notification_media_action = 2131427382;
-			
-			// aapt resource value: 0x7F0B0037
-			public const int notification_media_cancel_action = 2131427383;
-			
-			// aapt resource value: 0x7F0B0038
-			public const int notification_template_big_media = 2131427384;
-			
-			// aapt resource value: 0x7F0B0039
-			public const int notification_template_big_media_custom = 2131427385;
-			
-			// aapt resource value: 0x7F0B003A
-			public const int notification_template_big_media_narrow = 2131427386;
-			
-			// aapt resource value: 0x7F0B003B
-			public const int notification_template_big_media_narrow_custom = 2131427387;
-			
-			// aapt resource value: 0x7F0B003C
-			public const int notification_template_custom_big = 2131427388;
-			
-			// aapt resource value: 0x7F0B003D
-			public const int notification_template_icon_group = 2131427389;
-			
-			// aapt resource value: 0x7F0B003E
-			public const int notification_template_lines_media = 2131427390;
-			
-			// aapt resource value: 0x7F0B003F
-			public const int notification_template_media = 2131427391;
-			
-			// aapt resource value: 0x7F0B0040
-			public const int notification_template_media_custom = 2131427392;
-			
-			// aapt resource value: 0x7F0B0041
-			public const int notification_template_part_chronometer = 2131427393;
-			
-			// aapt resource value: 0x7F0B0042
-			public const int notification_template_part_time = 2131427394;
-			
 			// aapt resource value: 0x7F0B0002
-			public const int RootLayout = 2131427330;
-			
-			// aapt resource value: 0x7F0B0043
-			public const int select_dialog_item_material = 2131427395;
-			
-			// aapt resource value: 0x7F0B0044
-			public const int select_dialog_multichoice_material = 2131427396;
-			
-			// aapt resource value: 0x7F0B0045
-			public const int select_dialog_singlechoice_material = 2131427397;
+			public const int abc_action_bar_title_item = 2131427330;
 			
 			// aapt resource value: 0x7F0B0003
-			public const int ShellContent = 2131427331;
-			
-			// aapt resource value: 0x7F0B0046
-			public const int support_simple_spinner_dropdown_item = 2131427398;
+			public const int abc_action_bar_up_container = 2131427331;
 			
 			// aapt resource value: 0x7F0B0004
-			public const int Tabbar = 2131427332;
+			public const int abc_action_menu_item_layout = 2131427332;
 			
 			// aapt resource value: 0x7F0B0005
-			public const int Toolbar = 2131427333;
+			public const int abc_action_menu_layout = 2131427333;
+			
+			// aapt resource value: 0x7F0B0006
+			public const int abc_action_mode_bar = 2131427334;
+			
+			// aapt resource value: 0x7F0B0007
+			public const int abc_action_mode_close_item_material = 2131427335;
+			
+			// aapt resource value: 0x7F0B0008
+			public const int abc_activity_chooser_view = 2131427336;
+			
+			// aapt resource value: 0x7F0B0009
+			public const int abc_activity_chooser_view_list_item = 2131427337;
+			
+			// aapt resource value: 0x7F0B000A
+			public const int abc_alert_dialog_button_bar_material = 2131427338;
+			
+			// aapt resource value: 0x7F0B000B
+			public const int abc_alert_dialog_material = 2131427339;
+			
+			// aapt resource value: 0x7F0B000C
+			public const int abc_alert_dialog_title_material = 2131427340;
+			
+			// aapt resource value: 0x7F0B000D
+			public const int abc_cascading_menu_item_layout = 2131427341;
+			
+			// aapt resource value: 0x7F0B000E
+			public const int abc_dialog_title_material = 2131427342;
+			
+			// aapt resource value: 0x7F0B000F
+			public const int abc_expanded_menu_layout = 2131427343;
+			
+			// aapt resource value: 0x7F0B0010
+			public const int abc_list_menu_item_checkbox = 2131427344;
+			
+			// aapt resource value: 0x7F0B0011
+			public const int abc_list_menu_item_icon = 2131427345;
+			
+			// aapt resource value: 0x7F0B0012
+			public const int abc_list_menu_item_layout = 2131427346;
+			
+			// aapt resource value: 0x7F0B0013
+			public const int abc_list_menu_item_radio = 2131427347;
+			
+			// aapt resource value: 0x7F0B0014
+			public const int abc_popup_menu_header_item_layout = 2131427348;
+			
+			// aapt resource value: 0x7F0B0015
+			public const int abc_popup_menu_item_layout = 2131427349;
+			
+			// aapt resource value: 0x7F0B0016
+			public const int abc_screen_content_include = 2131427350;
+			
+			// aapt resource value: 0x7F0B0017
+			public const int abc_screen_simple = 2131427351;
+			
+			// aapt resource value: 0x7F0B0018
+			public const int abc_screen_simple_overlay_action_mode = 2131427352;
+			
+			// aapt resource value: 0x7F0B0019
+			public const int abc_screen_toolbar = 2131427353;
+			
+			// aapt resource value: 0x7F0B001A
+			public const int abc_search_dropdown_item_icons_2line = 2131427354;
+			
+			// aapt resource value: 0x7F0B001B
+			public const int abc_search_view = 2131427355;
+			
+			// aapt resource value: 0x7F0B001C
+			public const int abc_select_dialog_material = 2131427356;
+			
+			// aapt resource value: 0x7F0B001D
+			public const int abc_tooltip = 2131427357;
+			
+			// aapt resource value: 0x7F0B001E
+			public const int browser_actions_context_menu_page = 2131427358;
+			
+			// aapt resource value: 0x7F0B001F
+			public const int browser_actions_context_menu_row = 2131427359;
+			
+			// aapt resource value: 0x7F0B0020
+			public const int design_bottom_navigation_item = 2131427360;
+			
+			// aapt resource value: 0x7F0B0021
+			public const int design_bottom_sheet_dialog = 2131427361;
+			
+			// aapt resource value: 0x7F0B0022
+			public const int design_layout_snackbar = 2131427362;
+			
+			// aapt resource value: 0x7F0B0023
+			public const int design_layout_snackbar_include = 2131427363;
+			
+			// aapt resource value: 0x7F0B0024
+			public const int design_layout_tab_icon = 2131427364;
+			
+			// aapt resource value: 0x7F0B0025
+			public const int design_layout_tab_text = 2131427365;
+			
+			// aapt resource value: 0x7F0B0026
+			public const int design_menu_item_action_area = 2131427366;
+			
+			// aapt resource value: 0x7F0B0027
+			public const int design_navigation_item = 2131427367;
+			
+			// aapt resource value: 0x7F0B0028
+			public const int design_navigation_item_header = 2131427368;
+			
+			// aapt resource value: 0x7F0B0029
+			public const int design_navigation_item_separator = 2131427369;
+			
+			// aapt resource value: 0x7F0B002A
+			public const int design_navigation_item_subheader = 2131427370;
+			
+			// aapt resource value: 0x7F0B002B
+			public const int design_navigation_menu = 2131427371;
+			
+			// aapt resource value: 0x7F0B002C
+			public const int design_navigation_menu_item = 2131427372;
+			
+			// aapt resource value: 0x7F0B002D
+			public const int design_text_input_password_icon = 2131427373;
+			
+			// aapt resource value: 0x7F0B002E
+			public const int mtrl_layout_snackbar = 2131427374;
+			
+			// aapt resource value: 0x7F0B002F
+			public const int mtrl_layout_snackbar_include = 2131427375;
+			
+			// aapt resource value: 0x7F0B0030
+			public const int notification_action = 2131427376;
+			
+			// aapt resource value: 0x7F0B0031
+			public const int notification_action_tombstone = 2131427377;
+			
+			// aapt resource value: 0x7F0B0032
+			public const int notification_media_action = 2131427378;
+			
+			// aapt resource value: 0x7F0B0033
+			public const int notification_media_cancel_action = 2131427379;
+			
+			// aapt resource value: 0x7F0B0034
+			public const int notification_template_big_media = 2131427380;
+			
+			// aapt resource value: 0x7F0B0035
+			public const int notification_template_big_media_custom = 2131427381;
+			
+			// aapt resource value: 0x7F0B0036
+			public const int notification_template_big_media_narrow = 2131427382;
+			
+			// aapt resource value: 0x7F0B0037
+			public const int notification_template_big_media_narrow_custom = 2131427383;
+			
+			// aapt resource value: 0x7F0B0038
+			public const int notification_template_custom_big = 2131427384;
+			
+			// aapt resource value: 0x7F0B0039
+			public const int notification_template_icon_group = 2131427385;
+			
+			// aapt resource value: 0x7F0B003A
+			public const int notification_template_lines_media = 2131427386;
+			
+			// aapt resource value: 0x7F0B003B
+			public const int notification_template_media = 2131427387;
+			
+			// aapt resource value: 0x7F0B003C
+			public const int notification_template_media_custom = 2131427388;
+			
+			// aapt resource value: 0x7F0B003D
+			public const int notification_template_part_chronometer = 2131427389;
+			
+			// aapt resource value: 0x7F0B003E
+			public const int notification_template_part_time = 2131427390;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int select_dialog_item_material = 2131427391;
+			
+			// aapt resource value: 0x7F0B0040
+			public const int select_dialog_multichoice_material = 2131427392;
+			
+			// aapt resource value: 0x7F0B0041
+			public const int select_dialog_singlechoice_material = 2131427393;
+			
+			// aapt resource value: 0x7F0B0042
+			public const int support_simple_spinner_dropdown_item = 2131427394;
+			
+			// aapt resource value: 0x7F0B0000
+			public const int Tabbar = 2131427328;
+			
+			// aapt resource value: 0x7F0B0001
+			public const int Toolbar = 2131427329;
 			
 			static Layout()
 			{
@@ -7581,9 +4962,6 @@ namespace JubilantWaffle.Droid
 			
 			// aapt resource value: 0x7F0E00C5
 			public const int CardView_Light = 2131624133;
-			
-			// aapt resource value: 0x7F0E01F7
-			public const int collectionViewStyle = 2131624439;
 			
 			// aapt resource value: 0x7F0E00C6
 			public const int MainTheme = 2131624134;
