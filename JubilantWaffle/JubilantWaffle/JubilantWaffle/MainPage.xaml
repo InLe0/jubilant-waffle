@@ -8,8 +8,11 @@
 
     <StackLayout x:Name="MyStack">
         <Entry x:Name="puzzleSizeEnt" Text="enter value"/>
-        <Button x:Name="puzzleSizeButton" Text="applyValue"/>
+        <Button x:Name="puzzleSizeButton" Text="applyValue">
+        </Button>
+
         <Label x:Name="MathedValue"/>
+        
         <Label x:Name="ScreenValue"/>
         <Grid x:Name="myGrid">
             

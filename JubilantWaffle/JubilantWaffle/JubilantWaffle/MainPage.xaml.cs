@@ -14,11 +14,13 @@ namespace JubilantWaffle
     [DesignTimeVisible (false)]
     public partial class MainPage : ContentPage
     {
-        
+        ImageButts button = new ImageButts();
+        int ButtonCount;
         public MainPage()
         {
             InitializeComponent();
             puzzleSizeButton.Clicked += SetSizeButton;
+            
         }
         
 
@@ -34,7 +36,9 @@ namespace JubilantWaffle
             {
                 for (int j = 0; j < puzzleSizeInt; j++)
                 {
-                    ImageButts button = new ImageButts();
+                    
+                    button = new ImageButts();
+                    button.Clicked += ButtonDoubleTap;
                     int mathedValue = App.screenWidth * 3 / (puzzleSizeInt * 10)*puzzleSizeInt;
                     MathedValue.Text = mathedValue.ToString();
                     ScreenValue.Text = App.screenWidth.ToString();
@@ -48,6 +52,32 @@ namespace JubilantWaffle
                     myGrid.Children.Add(button);   
                 }
             }
+        }
+        void ButtonDoubleTap(object sender, EventArgs e)
+        {
+            button = (ImageButts)sender;
+            if (ButtonCount < 1)
+            {
+                TimeSpan tt = new TimeSpan(0, 0, 1);
+                Device.StartTimer(tt, TestHandleFunc);
+            }
+            ButtonCount++;
+
+        }
+        bool TestHandleFunc()
+        {
+            if (ButtonCount > 1)
+            {
+                 button.RotateTo(90);
+                 DisplayAlert("", "Two Clicks", "OK");
+            }
+            else
+            {
+                //Your action for Single Click here
+                 DisplayAlert("", "One Click", "OK");
+            }
+            ButtonCount = 0;
+            return false;
         }
     }
 }
