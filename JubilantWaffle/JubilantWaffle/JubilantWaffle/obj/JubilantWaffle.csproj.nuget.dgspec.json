@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj": {}
+    "C:\\Users\\InLeo\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj": {
+    "C:\\Users\\InLeo\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj",
+        "projectUniqueName": "C:\\Users\\InLeo\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj",
         "projectName": "JubilantWaffle",
-        "projectPath": "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj",
-        "packagesPath": "C:\\Users\\45502\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\obj\\",
+        "projectPath": "C:\\Users\\InLeo\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj",
+        "packagesPath": "C:\\Users\\InLeo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\InLeo\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\45502\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\InLeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -79,7 +80,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
