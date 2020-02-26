@@ -2169,24 +2169,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\45502\\.nuget\\packages\\": {},
+    "C:\\Users\\InLeo\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.Android\\JubilantWaffle.Android.csproj",
+      "projectUniqueName": "C:\\Users\\InLeo\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.Android\\JubilantWaffle.Android.csproj",
       "projectName": "JubilantWaffle.Android",
-      "projectPath": "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.Android\\JubilantWaffle.Android.csproj",
-      "packagesPath": "C:\\Users\\45502\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.Android\\obj\\",
+      "projectPath": "C:\\Users\\InLeo\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.Android\\JubilantWaffle.Android.csproj",
+      "packagesPath": "C:\\Users\\InLeo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\InLeo\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\45502\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\InLeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2200,8 +2200,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj": {
-              "projectPath": "C:\\Users\\45502\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj"
+            "C:\\Users\\InLeo\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj": {
+              "projectPath": "C:\\Users\\InLeo\\source\\repos\\jubilant-waffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle\\JubilantWaffle.csproj"
             }
           }
         }

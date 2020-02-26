@@ -16,8 +16,12 @@ namespace JubilantWaffle
     [DesignTimeVisible (false)]
     public partial class MainPage : ContentPage
     {
-        ImageButts button = new ImageButts();
+        ImageButton button = new ImageButton();
         int ButtonCount;
+        Piece piece = new Piece();
+        List<Piece> fragments = new List<Piece>();
+        ArrayList buttonList = new ArrayList();
+        Random r = new Random();
         public MainPage()
         {
             InitializeComponent();
@@ -28,12 +32,8 @@ namespace JubilantWaffle
 
         void SetSizeButton(object sender, EventArgs e)
         {
-            Piece piece = new Piece();
-            List<Piece> fragments = new List<Piece>();
             string puzzleSize = puzzleSizeEnt.Text;
             int puzzleSizeInt = System.Convert.ToInt32(puzzleSize);
-            Random r = new Random();
-            ArrayList buttonList = new ArrayList();
             Image image = new Image();
             image.Source = "grommash.png";
             fragments = piece.Shatter(puzzleSizeInt);
@@ -54,6 +54,7 @@ namespace JubilantWaffle
                     button.Source = ImageSource.FromFile("grommash.png");                  
                     button.Aspect = Aspect.AspectFill;
                     buttonList.Add(button);
+                    button.RotateTo(fragments[buttonList.Count-1].Orientation);
                     myGrid.Children.Add(button);   
                 }
             }
@@ -73,29 +74,57 @@ namespace JubilantWaffle
         {
             if (ButtonCount > 1)
             {
-                 button.RotateTo(90);
-                 DisplayAlert("", "Two Clicks", "OK");
+                int btnNum = buttonList.IndexOf(button);
+                fragments[btnNum].Orientation += 90;
+                fragments[btnNum].Orientation %= 360;
+                button.RotateTo(fragments[btnNum].Orientation);
+                //DisplayAlert("", "Two Clicks", "OK");
+                chickenDinner();
             }
             else
             {
                 //Your action for Single Click here
-                 DisplayAlert("", "One Click", "OK");
+                 //DisplayAlert("", "One Click", "OK");
             }
             ButtonCount = 0;
             return false;
         }
-        /*public Stream Grunhilde(string imagePath)
+
+        void chickenDinner()
         {
-            Image image = new Image();
-            image.Source=imagePath;
-            var table = new Image();
-            I
-            table = ImageSource.FromStream(() =>
+            bool weHasNukes = true;
+            int actualPosition = 0;
+                foreach (Piece piece in fragments)
+                {
+                    if (!weHasNukes)
+                    {
+                        break;
+                    }
+                    if (piece.Orientation != 0)
+                    {
+                        weHasNukes = false;
+                    }
+                }
+            if (weHasNukes)
             {
-                var stream = table.GetStream();
-                _mediaFile.Dispose();
-                return stream;
-            });
-        }*/
+                DisplayAlert("", "First Win condition Achieved", "OK");
+                foreach (Piece piece in fragments)
+                {
+                    if (!weHasNukes)
+                    {
+                        break;
+                    }
+                    if (piece.DesiredPosition != actualPosition)
+                    {
+                        weHasNukes = false;
+                    }
+                    actualPosition++;
+                }
+            }
+            if (weHasNukes)
+            {
+                DisplayAlert("", "All your base are belong to us", "OK");
+            }
+        }
     }
 }
