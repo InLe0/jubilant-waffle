@@ -3,25 +3,10 @@ using System.Collections.Generic;
 using FFImageLoading.Transformations;
 using FFImageLoading.Work;
 using Xamarin.Forms;
-using System.Drawing.Imaging;
-using System.Drawing;
 using Image = System.Drawing.Image;
 using System.Threading.Tasks;
-using System;
-using Xamarin.Forms;
-using FFImageLoading.Forms;
-using FFImageLoading.Work;
-using System.Collections.Generic;
-using ImageSource = Xamarin.Forms.ImageSource;
-using FFImageLoading.Transformations;
 using System.Linq;
-using System.Threading.Tasks;
-using System.Threading;
-using FFImageLoading;
 using System.IO;
-using System.Collections.ObjectModel;
-using System.Collections.Specialized;
-using System.ComponentModel;
 
 namespace FFImageLoading.Forms.Sample
 {
