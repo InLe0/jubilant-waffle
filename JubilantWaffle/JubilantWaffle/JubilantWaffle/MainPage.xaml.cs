@@ -2,7 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -26,12 +28,15 @@ namespace JubilantWaffle
 
         void SetSizeButton(object sender, EventArgs e)
         {
+            Piece piece = new Piece();
+            List<Piece> fragments = new List<Piece>();
             string puzzleSize = puzzleSizeEnt.Text;
             int puzzleSizeInt = System.Convert.ToInt32(puzzleSize);
             Random r = new Random();
             ArrayList buttonList = new ArrayList();
             Image image = new Image();
             image.Source = "grommash.png";
+            fragments = piece.Shatter(puzzleSizeInt);
             for (int i = 0; i < puzzleSizeInt; i++)
             {
                 for (int j = 0; j < puzzleSizeInt; j++)
@@ -46,9 +51,9 @@ namespace JubilantWaffle
                     myGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength((App.screenWidth * 3) / (puzzleSizeInt * 10)) });
                     Grid.SetRow(button, i);
                     Grid.SetColumn(button, j);
-                    button.Source = ImageSource.FromFile("grommash.png");
-                    //button.Source = ImageSource.FromStream();
+                    button.Source = ImageSource.FromFile("grommash.png");                  
                     button.Aspect = Aspect.AspectFill;
+                    buttonList.Add(button);
                     myGrid.Children.Add(button);   
                 }
             }
@@ -79,5 +84,18 @@ namespace JubilantWaffle
             ButtonCount = 0;
             return false;
         }
+        /*public Stream Grunhilde(string imagePath)
+        {
+            Image image = new Image();
+            image.Source=imagePath;
+            var table = new Image();
+            I
+            table = ImageSource.FromStream(() =>
+            {
+                var stream = table.GetStream();
+                _mediaFile.Dispose();
+                return stream;
+            });
+        }*/
     }
 }

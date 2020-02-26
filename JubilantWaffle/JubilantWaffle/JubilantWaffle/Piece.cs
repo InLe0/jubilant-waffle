@@ -19,7 +19,7 @@ namespace JubilantWaffle
             Random r = new Random();
             Image image = Image.FromFile(path);
 
-            List<Piece> Fragments = new List<Piece>();
+            List<Piece> fragments = new List<Piece>();
 
             for (int i = 0; i < pieces*pieces; i++)
             {
@@ -27,9 +27,31 @@ namespace JubilantWaffle
                     Piece edge = new Piece();
                     edge.Orientation = rInt * 90;
                     edge.DesiredPosition = i;
-                
             }
-            return Fragments;
+            fragments = Shuffle(fragments);
+            return fragments;
+        }
+
+        public List<Piece> Shuffle(List<Piece> fragments)
+        {
+            Random r = new Random();
+            Piece[] shufflerino = new Piece[fragments.Count];
+            fragments.Reverse();
+            while (fragments.Count > 1)
+            {
+                int rInt = r.Next(0, shufflerino.Length+1);
+                if (shufflerino[rInt] == null)
+                {
+                    shufflerino[rInt] = fragments[0];
+                    fragments.RemoveAt(0);
+                }
+            }
+            foreach (Piece piece in shufflerino)
+            {
+                fragments.Add(piece);
+            }
+            fragments.Reverse();
+            return fragments;
         }
     }
 }
