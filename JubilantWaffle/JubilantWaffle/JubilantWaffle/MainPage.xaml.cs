@@ -19,8 +19,6 @@ namespace JubilantWaffle
         {
             InitializeComponent();
             puzzleSizeButton.Clicked += SetSizeButton;
-           
-            
         }
         
 
@@ -28,31 +26,24 @@ namespace JubilantWaffle
         {
             string puzzleSize = puzzleSizeEnt.Text;
             int puzzleSizeInt = System.Convert.ToInt32(puzzleSize);
-
             Random r = new Random();
             ArrayList buttonList = new ArrayList();
-            
             for (int i = 0; i < puzzleSizeInt; i++)
             {
-
                 for (int j = 0; j < puzzleSizeInt; j++)
                 {
-
                     ImageButton button = new ImageButton();
                     int mathedValue = App.screenWidth * 3 / (puzzleSizeInt * 10)*puzzleSizeInt;
                     MathedValue.Text = mathedValue.ToString();
                     ScreenValue.Text = App.screenWidth.ToString();
-
                     myGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength((App.screenWidth * 3) / (puzzleSizeInt * 10)) });
                     myGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength((App.screenWidth * 3) / (puzzleSizeInt * 10)) });
                     Grid.SetRow(button, i);
                     Grid.SetColumn(button, j);
                     button.Source = ImageSource.FromFile("grommash.png");
                     button.Aspect = Aspect.AspectFill;
-                    myGrid.Children.Add(button);
-                    
+                    myGrid.Children.Add(button);   
                 }
-               
             }
         }
     }
