@@ -28,9 +28,7 @@ namespace JubilantWaffle
         {
             string puzzleSize = puzzleSizeEnt.Text;
             int puzzleSizeInt = System.Convert.ToInt32(puzzleSize);
-            int rotation90 = 90;
-            int rotation180 = 180;
-            int rotation270 = 270;
+
             Random r = new Random();
             ArrayList buttonList = new ArrayList();
             
@@ -42,10 +40,9 @@ namespace JubilantWaffle
 
                     ImageButton button = new ImageButton();
                     int mathedValue = App.screenWidth * 3 / (puzzleSizeInt * 10)*puzzleSizeInt;
-                    //MathedValue.Text = mathedValue.ToString();
-                    //ScreenValue.Text = App.screenWidth.ToString();
-                    Console.WriteLine(App.screenWidth);
-                    Console.WriteLine(App.screenWidth * 3 / (puzzleSizeInt * 10));
+                    MathedValue.Text = mathedValue.ToString();
+                    ScreenValue.Text = App.screenWidth.ToString();
+
                     myGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength((App.screenWidth * 3) / (puzzleSizeInt * 10)) });
                     myGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength((App.screenWidth * 3) / (puzzleSizeInt * 10)) });
                     Grid.SetRow(button, i);
