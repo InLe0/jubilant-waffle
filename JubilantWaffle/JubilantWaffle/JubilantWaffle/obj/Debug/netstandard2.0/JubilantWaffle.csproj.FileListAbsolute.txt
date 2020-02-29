@@ -23,3 +23,4 @@ C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\Jubila
 C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\JubilantWaffle\obj\Debug\netstandard2.0\JubilantWaffle.pdb
 C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\JubilantWaffle\obj\Debug\netstandard2.0\JubilantWaffle.csprojAssemblyReference.cache
 C:\Users\45502\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\JubilantWaffle\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\JubilantWaffle\obj\Debug\netstandard2.0\XamlC.stamp

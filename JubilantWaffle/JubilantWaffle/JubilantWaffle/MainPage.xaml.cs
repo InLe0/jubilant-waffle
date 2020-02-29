@@ -23,13 +23,15 @@ namespace JubilantWaffle
         int ButtonCount;
         Piece piece = new Piece();
         List<Piece> fragments = new List<Piece>();
-        ArrayList buttonList = new ArrayList();
+        List<ImageButton> buttsList = new List<ImageButton>();
         Random r = new Random();
+        public int singleDad;
         public MainPage()
         {
             InitializeComponent();
             puzzleSizeButton.Clicked += SetSizeButton;
-            
+            singleDad = 420;
+
         }
         
 
@@ -60,19 +62,19 @@ namespace JubilantWaffle
                     Grid.SetColumn(button, j);
                     
                     button.Aspect = Aspect.AspectFill;
-                    buttonList.Add(button);
-                    button.Source = ImageSource.FromFile((fragments[buttonList.Count - 1].filePath));
-                    button.RotateTo(fragments[buttonList.Count-1].Orientation);
+                    buttsList.Add(button);
+                    button.Source = ImageSource.FromFile((fragments[buttsList.Count - 1].filePath));
+                    button.RotateTo(fragments[buttsList.Count-1].Orientation);
                     myGrid.Children.Add(button);   
                 }
-            }
+            } 
         }
         void ButtonDoubleTap(object sender, EventArgs e)
         {
             button = (ImageButton)sender;
             if (ButtonCount < 1)
             {
-                TimeSpan tt = new TimeSpan(0, 0, 1);
+                TimeSpan tt = new TimeSpan(0, 0, 0, 0, 200);
                 Device.StartTimer(tt, TestHandleFunc);
             }
             ButtonCount++;
@@ -82,7 +84,7 @@ namespace JubilantWaffle
         {
             if (ButtonCount > 1)
             {
-                int btnNum = buttonList.IndexOf(button);
+                int btnNum = buttsList.IndexOf(button);
                 fragments[btnNum].Orientation += 90;
                 button.RotateTo(fragments[btnNum].Orientation);
                 fragments[btnNum].Orientation %= 360;
@@ -91,8 +93,32 @@ namespace JubilantWaffle
             }
             else
             {
-                //Your action for Single Click here
-                 //DisplayAlert("", "One Click", "OK");
+                int btnNum = buttsList.IndexOf(button);
+                if (singleDad!= 420  && singleDad != btnNum)
+                {
+                    String bluePath = fragments[btnNum].filePath;
+                    int blueOrientation = fragments[btnNum].Orientation;
+                    int bluePosition = fragments[btnNum].DesiredPosition;
+
+                    fragments[btnNum].filePath = fragments[singleDad].filePath;
+                    fragments[btnNum].Orientation = fragments[singleDad].Orientation;
+                    fragments[btnNum].DesiredPosition = fragments[singleDad].DesiredPosition;
+
+                    fragments[singleDad].filePath = bluePath;
+                    fragments[singleDad].Orientation = blueOrientation;
+                    fragments[singleDad].DesiredPosition = bluePosition;
+
+                    buttsList[btnNum].Source = fragments[btnNum].filePath;
+                    buttsList[btnNum].RotateTo(fragments[btnNum].Orientation);
+                    buttsList[singleDad].Source = fragments[singleDad].filePath;
+                    buttsList[singleDad].RotateTo(fragments[singleDad].Orientation);
+
+                    singleDad = 420;
+                }
+                else if (singleDad == 420)
+                {
+                    singleDad = btnNum;
+                }
             }
             ButtonCount = 0;
             return false;
@@ -118,6 +144,7 @@ namespace JubilantWaffle
                 DisplayAlert("", "First Win condition Achieved", "OK");
                 foreach (Piece piece in fragments)
                 {
+                    actualPosition = fragments.IndexOf(piece);
                     if (!weHasNukes)
                     {
                         break;
