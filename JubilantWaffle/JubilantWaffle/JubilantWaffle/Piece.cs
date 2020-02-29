@@ -9,7 +9,6 @@ namespace JubilantWaffle
 {
     class Piece
     {
-        public Image Shard { get; set; }
         public int DesiredPosition { get; set; }
         public int Orientation { get; set; }
         public string filePath { get; set; }
@@ -27,15 +26,12 @@ namespace JubilantWaffle
                     int rInt = r.Next(0, 4);
                     Piece edge = new Piece();
                     edge.Orientation = rInt * 90;
-                    edge.Shard = new Image();
                 if (i<9)
                 {
-                    edge.Shard.Source = ImageSource.FromFile("imagepart00" + (i+1) + ".png");
                     edge.filePath = "imagepart00" + (i+1) + ".png";
                 }
                 else
                 {
-                    edge.Shard.Source = ImageSource.FromFile("imagepart0" + (i+1) + ".png");
                     edge.filePath = "imagepart0" + (i+1) + ".png";
                 }
                    
