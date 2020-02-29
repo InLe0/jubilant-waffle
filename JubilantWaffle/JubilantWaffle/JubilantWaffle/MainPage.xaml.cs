@@ -1,13 +1,16 @@
-﻿using System;
+﻿using Plugin.ImageEdit;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
+
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+
 
 namespace JubilantWaffle
 {
@@ -16,7 +19,7 @@ namespace JubilantWaffle
     [DesignTimeVisible (false)]
     public partial class MainPage : ContentPage
     {
-        ImageButton button = new ImageButton();
+        ImageButton button;
         int ButtonCount;
         Piece piece = new Piece();
         List<Piece> fragments = new List<Piece>();
@@ -33,16 +36,20 @@ namespace JubilantWaffle
         void SetSizeButton(object sender, EventArgs e)
         {
             string puzzleSize = puzzleSizeEnt.Text;
-            int puzzleSizeInt = System.Convert.ToInt32(puzzleSize);
-            Image image = new Image();
-            image.Source = "grommash.png";
+            int puzzleSizeInt = Convert.ToInt32(puzzleSize);
+ 
+            
+           
+           
+            
             fragments = piece.Shatter(puzzleSizeInt);
             for (int i = 0; i < puzzleSizeInt; i++)
             {
                 for (int j = 0; j < puzzleSizeInt; j++)
                 {
+
+                    button = new ImageButton();
                     
-                    button = new ImageButts();
                     button.Clicked += ButtonDoubleTap;
                     int mathedValue = App.screenWidth * 3 / (puzzleSizeInt * 10)*puzzleSizeInt;
                     MathedValue.Text = mathedValue.ToString();
@@ -51,9 +58,10 @@ namespace JubilantWaffle
                     myGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength((App.screenWidth * 3) / (puzzleSizeInt * 10)) });
                     Grid.SetRow(button, i);
                     Grid.SetColumn(button, j);
-                    button.Source = ImageSource.FromFile("grommash.png");                  
+                    
                     button.Aspect = Aspect.AspectFill;
                     buttonList.Add(button);
+                    button.Source = ImageSource.FromFile((fragments[buttonList.Count - 1].filePath));
                     button.RotateTo(fragments[buttonList.Count-1].Orientation);
                     myGrid.Children.Add(button);   
                 }
@@ -61,7 +69,7 @@ namespace JubilantWaffle
         }
         void ButtonDoubleTap(object sender, EventArgs e)
         {
-            button = (ImageButts)sender;
+            button = (ImageButton)sender;
             if (ButtonCount < 1)
             {
                 TimeSpan tt = new TimeSpan(0, 0, 1);
