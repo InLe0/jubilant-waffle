@@ -1064,3 +1064,5 @@ C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\Jubila
 C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\JubilantWaffle.Android\obj\Debug\90\res\drawable\imagepart025.png
 C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\JubilantWaffle.Android\obj\Debug\90\android\assets\Plugin.ImageEdit.Abstractions.dll
 C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\JubilantWaffle.Android\obj\Debug\90\android\assets\Plugin.ImageEdit.dll
+C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\JubilantWaffle.Android\bin\Debug\JubilantWaffle.Android.dll.CodeAnalysisLog.xml
+C:\Users\InLeo\source\repos\jubilant-waffle\JubilantWaffle\JubilantWaffle\JubilantWaffle.Android\bin\Debug\JubilantWaffle.Android.dll.lastcodeanalysissucceeded

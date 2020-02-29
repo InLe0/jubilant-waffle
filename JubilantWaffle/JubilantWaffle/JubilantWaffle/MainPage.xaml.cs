@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using Xamarin.Forms;
@@ -7,9 +6,7 @@ using Xamarin.Forms;
 
 namespace JubilantWaffle
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
-    [DesignTimeVisible (false)]
+    [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
         ImageButton button;
@@ -24,46 +21,38 @@ namespace JubilantWaffle
             InitializeComponent();
             puzzleSizeButton.Clicked += SetSizeButton;
             singleDad = 420;
-
         }
-        
+
 
         void SetSizeButton(object sender, EventArgs e)
         {
-            //to fix mergies
-            //another mergies fixis
-
             string puzzleSize = puzzleSizeEnt.Text;
             int puzzleSizeInt = Convert.ToInt32(puzzleSize);
- 
-            
-           
-           
-            
             fragments = piece.Shatter(puzzleSizeInt);
+
             for (int i = 0; i < puzzleSizeInt; i++)
             {
                 for (int j = 0; j < puzzleSizeInt; j++)
                 {
 
                     button = new ImageButton();
-                    
+
                     button.Clicked += ButtonDoubleTap;
-                    int mathedValue = App.screenWidth * 3 / (puzzleSizeInt * 10)*puzzleSizeInt;
+                    int mathedValue = App.screenWidth * 3 / (puzzleSizeInt * 10) * puzzleSizeInt;
                     MathedValue.Text = mathedValue.ToString();
                     ScreenValue.Text = App.screenWidth.ToString();
                     myGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength((App.screenWidth * 3) / (puzzleSizeInt * 10)) });
                     myGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength((App.screenWidth * 3) / (puzzleSizeInt * 10)) });
                     Grid.SetRow(button, i);
                     Grid.SetColumn(button, j);
-                    
+
                     button.Aspect = Aspect.AspectFill;
                     buttsList.Add(button);
                     button.Source = ImageSource.FromFile((fragments[buttsList.Count - 1].filePath));
-                    button.RotateTo(fragments[buttsList.Count-1].Orientation);
-                    myGrid.Children.Add(button);   
+                    button.RotateTo(fragments[buttsList.Count - 1].Orientation);
+                    myGrid.Children.Add(button);
                 }
-            } 
+            }
         }
         void ButtonDoubleTap(object sender, EventArgs e)
         {
@@ -84,13 +73,12 @@ namespace JubilantWaffle
                 fragments[btnNum].Orientation += 90;
                 button.RotateTo(fragments[btnNum].Orientation);
                 fragments[btnNum].Orientation %= 360;
-                //DisplayAlert("", "Two Clicks", "OK");
                 chickenDinner();
             }
             else
             {
                 int btnNum = buttsList.IndexOf(button);
-                if (singleDad!= 420  && singleDad != btnNum)
+                if (singleDad != 420 && singleDad != btnNum)
                 {
                     String bluePath = fragments[btnNum].filePath;
                     int blueOrientation = fragments[btnNum].Orientation;
@@ -124,17 +112,17 @@ namespace JubilantWaffle
         {
             bool weHasNukes = true;
             int actualPosition = 0;
-                foreach (Piece piece in fragments)
+            foreach (Piece piece in fragments)
+            {
+                if (!weHasNukes)
                 {
-                    if (!weHasNukes)
-                    {
-                        break;
-                    }
-                    if (piece.Orientation != 0)
-                    {
-                        weHasNukes = false;
-                    }
+                    break;
                 }
+                if (piece.Orientation != 0)
+                {
+                    weHasNukes = false;
+                }
+            }
             if (weHasNukes)
             {
                 DisplayAlert("", "First Win condition Achieved", "OK");
