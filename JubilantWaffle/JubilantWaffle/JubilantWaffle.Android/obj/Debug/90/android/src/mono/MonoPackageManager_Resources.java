@@ -10,6 +10,8 @@ public class MonoPackageManager_Resources {
 		"FFImageLoading.Transformations.dll",
 		"FormsViewGroup.dll",
 		"JubilantWaffle.dll",
+		"Plugin.ImageEdit.Abstractions.dll",
+		"Plugin.ImageEdit.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
