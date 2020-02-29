@@ -29,6 +29,7 @@ namespace JubilantWaffle
         void SetSizeButton(object sender, EventArgs e)
         {
             //to fix mergies
+            //another mergies fixis
 
             string puzzleSize = puzzleSizeEnt.Text;
             int puzzleSizeInt = Convert.ToInt32(puzzleSize);
