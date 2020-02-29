@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Drawing;
-using System.Drawing.Imaging;
+using Xamarin.Forms;
 using FFImageLoading.Transformations;
 using System.IO;
 
@@ -17,7 +16,8 @@ namespace JubilantWaffle
         public List<Piece> Shatter(int pieces, string path = "grommash.png")
         {
             Random r = new Random();
-            Image image = Image.FromFile(path);
+            Image image = new Image();
+            image.Source = "grommash.png";
 
             List<Piece> fragments = new List<Piece>();
 
@@ -27,6 +27,7 @@ namespace JubilantWaffle
                     Piece edge = new Piece();
                     edge.Orientation = rInt * 90;
                     edge.DesiredPosition = i;
+                    fragments.Add(edge);
             }
             fragments = Shuffle(fragments);
             return fragments;
@@ -35,23 +36,15 @@ namespace JubilantWaffle
         public List<Piece> Shuffle(List<Piece> fragments)
         {
             Random r = new Random();
-            Piece[] shufflerino = new Piece[fragments.Count];
-            fragments.Reverse();
-            while (fragments.Count > 1)
+            List<Piece> shufflerino = new List<Piece>();
+            while (fragments.Count > 0)
             {
-                int rInt = r.Next(0, shufflerino.Length+1);
-                if (shufflerino[rInt] == null)
-                {
-                    shufflerino[rInt] = fragments[0];
-                    fragments.RemoveAt(0);
-                }
+                int rInt = r.Next(0, fragments.Count);
+                    shufflerino.Add(fragments[rInt]);
+                    Console.WriteLine(fragments[rInt].Orientation);
+                    fragments.RemoveAt(rInt);
             }
-            foreach (Piece piece in shufflerino)
-            {
-                fragments.Add(piece);
-            }
-            fragments.Reverse();
-            return fragments;
+            return shufflerino;
         }
     }
 }
