@@ -1,14 +1,7 @@
-﻿using Plugin.ImageEdit;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
-
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 
@@ -35,6 +28,8 @@ namespace JubilantWaffle
 
         void SetSizeButton(object sender, EventArgs e)
         {
+            //to fix mergies
+
             string puzzleSize = puzzleSizeEnt.Text;
             int puzzleSizeInt = Convert.ToInt32(puzzleSize);
  
