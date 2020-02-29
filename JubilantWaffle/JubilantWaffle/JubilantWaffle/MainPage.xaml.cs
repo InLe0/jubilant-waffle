@@ -76,8 +76,8 @@ namespace JubilantWaffle
             {
                 int btnNum = buttonList.IndexOf(button);
                 fragments[btnNum].Orientation += 90;
-                fragments[btnNum].Orientation %= 360;
                 button.RotateTo(fragments[btnNum].Orientation);
+                fragments[btnNum].Orientation %= 360;
                 //DisplayAlert("", "Two Clicks", "OK");
                 chickenDinner();
             }
