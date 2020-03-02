@@ -6,6 +6,7 @@ namespace JubilantWaffle
 {
     public partial class App : Application
     {
+        //variables that allows access to the screen width and height 
         public static int screenHeight, screenWidth;
         public App ()
         {

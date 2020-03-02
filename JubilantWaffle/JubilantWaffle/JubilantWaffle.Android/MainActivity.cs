@@ -21,6 +21,8 @@ namespace JubilantWaffle.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            // the 4 lines bellow gets the pixel values for both the width and hight of the screen of the device that the app is currently running on and links it to the App.cs so that the variables
+            //can be retrived in all the pages 
             var pixels = Resources.DisplayMetrics.WidthPixels;
             App.screenWidth = pixels;
             pixels = Resources.DisplayMetrics.HeightPixels;
