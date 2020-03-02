@@ -21,6 +21,15 @@ namespace JubilantWaffle
                 edge.Orientation = rInt * 90;
                 switch (pieces)
                 {
+                    case 1:
+                        edge.filePath = "meme.png";
+                        break;
+                    case 2:
+                        edge.filePath = "waa" + (i + 1) + ".png";
+                        break;
+                    case 3:
+                        edge.filePath = "image_part_" + (i + 1) + ".png";
+                        break;
                     case 4:
                         edge.filePath = "owlie_ouch" + (i + 1) + ".png";
                         break;
