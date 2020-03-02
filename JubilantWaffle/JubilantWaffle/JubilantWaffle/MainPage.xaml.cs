@@ -27,31 +27,42 @@ namespace JubilantWaffle
         void SetSizeButton(object sender, EventArgs e)
         {
             string puzzleSize = puzzleSizeEnt.Text;
-            int puzzleSizeInt = Convert.ToInt32(puzzleSize);
-            fragments = piece.Shatter(puzzleSizeInt);
-
-            for (int i = 0; i < puzzleSizeInt; i++)
+            try
             {
-                for (int j = 0; j < puzzleSizeInt; j++)
+                int puzzleSizeInt = Convert.ToInt32(puzzleSize);
+                myGrid.Children.Clear();
+                buttsList.Clear();
+                fragments.Clear();
+                singleDad = 420;
+                fragments = piece.Shatter(puzzleSizeInt);
+
+                for (int i = 0; i < puzzleSizeInt; i++)
                 {
+                    for (int j = 0; j < puzzleSizeInt; j++)
+                    {
 
-                    button = new ImageButton();
+                        button = new ImageButton();
 
-                    button.Clicked += ButtonDoubleTap;
-                    int mathedValue = App.screenWidth * 3 / (puzzleSizeInt * 10) * puzzleSizeInt;
-                    MathedValue.Text = mathedValue.ToString();
-                    ScreenValue.Text = App.screenWidth.ToString();
-                    myGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength((App.screenWidth * 3) / (puzzleSizeInt * 10)) });
-                    myGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength((App.screenWidth * 3) / (puzzleSizeInt * 10)) });
-                    Grid.SetRow(button, i);
-                    Grid.SetColumn(button, j);
+                        button.Clicked += ButtonDoubleTap;
+                        int mathedValue = App.screenWidth * 3 / (puzzleSizeInt * 10) * puzzleSizeInt;
+                        MathedValue.Text = mathedValue.ToString();
+                        ScreenValue.Text = App.screenWidth.ToString();
+                        myGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength((App.screenWidth * 3) / (puzzleSizeInt * 10)) });
+                        myGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength((App.screenWidth * 3) / (puzzleSizeInt * 10)) });
+                        Grid.SetRow(button, i);
+                        Grid.SetColumn(button, j);
 
-                    button.Aspect = Aspect.AspectFill;
-                    buttsList.Add(button);
-                    button.Source = ImageSource.FromFile((fragments[buttsList.Count - 1].filePath));
-                    button.RotateTo(fragments[buttsList.Count - 1].Orientation);
-                    myGrid.Children.Add(button);
+                        button.Aspect = Aspect.AspectFill;
+                        buttsList.Add(button);
+                        button.Source = ImageSource.FromFile((fragments[buttsList.Count - 1].filePath));
+                        button.RotateTo(fragments[buttsList.Count - 1].Orientation);
+                        myGrid.Children.Add(button);
+                    }
                 }
+            }
+            catch (System.FormatException ex)
+            {
+               
             }
         }
         void ButtonDoubleTap(object sender, EventArgs e)
@@ -125,7 +136,7 @@ namespace JubilantWaffle
             }
             if (weHasNukes)
             {
-                DisplayAlert("", "First Win condition Achieved", "OK");
+                //DisplayAlert("", "First Win condition Achieved", "OK");
                 foreach (Piece piece in fragments)
                 {
                     actualPosition = fragments.IndexOf(piece);
