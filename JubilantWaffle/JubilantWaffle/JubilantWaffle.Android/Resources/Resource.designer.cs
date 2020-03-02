@@ -5863,10 +5863,58 @@ namespace JubilantWaffle.Droid
 			public const int notify_panel_notification_icon_bg = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int tooltip_frame_dark = 2131165325;
+			public const int owlie_ouch1 = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int tooltip_frame_light = 2131165326;
+			public const int owlie_ouch10 = 2131165326;
+			
+			// aapt resource value: 0x7F07008F
+			public const int owlie_ouch11 = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int owlie_ouch12 = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int owlie_ouch13 = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int owlie_ouch14 = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int owlie_ouch15 = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int owlie_ouch16 = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int owlie_ouch2 = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int owlie_ouch3 = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int owlie_ouch4 = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int owlie_ouch5 = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int owlie_ouch6 = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int owlie_ouch7 = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int owlie_ouch8 = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int owlie_ouch9 = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int tooltip_frame_dark = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int tooltip_frame_light = 2131165342;
 			
 			static Drawable()
 			{

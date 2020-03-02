@@ -19,14 +19,25 @@ namespace JubilantWaffle
                 int rInt = r.Next(0, 4);
                 Piece edge = new Piece();
                 edge.Orientation = rInt * 90;
-                if (i < 9)
+                switch (pieces)
                 {
-                    edge.filePath = "imagepart00" + (i + 1) + ".png";
+                    case 4:
+                        edge.filePath = "owlie_ouch" + (i + 1) + ".png";
+                        break;
+                    case 5:
+                        if (i < 9)
+                        {
+                            edge.filePath = "imagepart00" + (i + 1) + ".png";
+                        }
+                        else
+                        {
+                            edge.filePath = "imagepart0" + (i + 1) + ".png";
+                        }
+                        break;
+                    default:
+                        break;
                 }
-                else
-                {
-                    edge.filePath = "imagepart0" + (i + 1) + ".png";
-                }
+                
 
                 edge.DesiredPosition = i;
                 fragments.Add(edge);
