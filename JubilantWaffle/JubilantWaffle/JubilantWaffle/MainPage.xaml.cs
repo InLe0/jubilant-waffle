@@ -33,6 +33,8 @@ namespace JubilantWaffle
                 myGrid.Children.Clear();
                 buttsList.Clear();
                 fragments.Clear();
+                myGrid.RowDefinitions.Clear();
+                myGrid.ColumnDefinitions.Clear();
                 singleDad = 420;
                 fragments = piece.Shatter(puzzleSizeInt);
 
