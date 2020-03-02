@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using Xamarin.Forms;
 
-
+// Icon obtained from @IconkaCom
 namespace JubilantWaffle
 {
     [DesignTimeVisible(false)]
